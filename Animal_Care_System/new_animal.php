@@ -2,12 +2,8 @@
 
     require 'insert_animal.php';
     require 'index_login.php';
-<<<<<<< HEAD
-   $firstname =  $_SESSION['firstname'];
+    $firstname =  $_SESSION['firstname'];
 
-=======
-    $firstname = $_SESSION['firstname'];
->>>>>>> foxBranch
 ?>
 
 <!DOCTYPE html>

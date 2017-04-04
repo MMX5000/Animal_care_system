@@ -1,11 +1,8 @@
 <?php
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
+    require 'insert_client.php';
 ?>
-<<<<<<< HEAD
-
-=======
->>>>>>> foxBranch
 <!DOCTYPE html>
 <!--
     
@@ -13,9 +10,6 @@ Created By: Ryan Claude Fox
 Date:3/8/17
 
 -->
-<?php
-    require 'insert_client.php';
-?>
 
     <head>
         <title>New User</title>
