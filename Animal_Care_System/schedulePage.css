@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2017, 12:43:24 PM
+    Author     : RyanFox
+*/
+
+
+body{
+    font-family:sans-serif;
+   
+    
+}
+body ul{
+    margin:0;
+}
+
+.month{
+    
+    background-color:#48b5f9;
+    width:100%;
+    padding:75px 25px;
+    
+  
+    
+    
+}
+.days {
+    
+    list-style-type: none;
+    padding:10px ;
+    background:lightgray;
+    color:#48b5f9;
+    
+}
+.days li{
+    
+    display:inline-block;
+    margin-bottom:5px;
+    font-size:16px;
+    text-align: center;
+    width:14.25%;
+}
+.weekdays{
+    list-style-type: none;
+ 
+ 
+    
+    
+}
+.weekdays li{
+    display:inline-block;
+    width:14.25%;
+    background-color:lightgray;
+    color:#48b5f9;
+    text-align: center;
+    font-size:16px;
+    text-decoration: underline;
+    
+    
+}
+.month ul {
+    
+    
+    padding:0;
+    list-style-type: none;
+}
+.month .next{
+    
+    float:right;
+    
+}
+.month li{
+    
+    color:#ffffff;
+    font-weight:bold;
+    font-size:20px;
+   
+}
+
+#month{
+    text-align: center;
+}
+
+button[name = 'prev']{
+    
+    width:10%;
+    height:203.5px;
+    position:absolute;
+    left:0;
+    top:57.99px;
+    font-size:25px;
+    opacity: .5;
+    color:#48b5f9;
+   
+    
+}
+button[name = 'next']{
+    
+    width:10%;
+    height:203.5px;
+    position:absolute;
+    right:0;
+    top:57.99px;
+    font-size:25px;
+    opacity:.5;
+    color:#48b5f9;
+   
+}
+
+button[name = 'next']:hover{
+    
+    opacity:1;
+}
+
+button[name = 'prev']:hover{
+    
+    opacity:1;
+}
+.days li:hover{
+    
+    color:#ffffff;
+    background-color:#48b5f9;
+}
+

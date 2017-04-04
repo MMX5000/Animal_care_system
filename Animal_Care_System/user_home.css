@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2017, 10:38:36 AM
+    Author     : RyanFox
+*/
+
+.title_header span{
+    
+  float:left;
+}
+.title_header h1{
+    font-family: sans-serif;
+     height:100%;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+.title_header{
+    
+    color:#ffffff;
+   background-color:#48b5f9;
+
+ 
+}
+
+
+img{
+    
+    height:400px;
+    width:100%;
+    margin-top:10px;
+    border-bottom: 2px solid lightgray;
+     
+    
+}
+
+.welcome_info{
+    
+    font-family: sans-serif;
+    margin-top:10px;
+    width:33.3%;
+    border-right:2px solid lightgray;
+    float:left;
+    background-color:#ffffff;
+    height:250px;
+    
+   
+}
+.welcome_info h2{
+    border-bottom: 2px solid lightgray;
+    width:35%;
+    text-align:center;
+    margin: auto;
+    
+    
+}
+body{
+    
+    background-color:#ffffff;
+    margin:0;
+}
+
+.container{
+    
+    
+    height:100%;
+}
+
+.hours_info{
+    
+    float:left;
+     font-family: sans-serif;
+     height:250px;
+    margin-top:10px;
+   background-color:#ffffff;
+    width:37%;
+    border-right:2px solid lightgray;
+    
+    
+}
+.hours_info h2{
+    
+    border-bottom: 2px solid lightgray;
+    width:35%;
+    text-align:center;
+    margin: auto;
+}
+
+
+
+table{
+    
+    margin:auto;
+    padding:5px;
+}
+th{
+    border-bottom:1px solid #48b5f9;
+    
+}
+
+th,td{
+    padding:2px;
+}
+
+.location_info{
+    
+     float:left;
+     font-family: sans-serif;
+     height:250px;
+     margin-top:10px;
+     background-color:#ffffff;
+     width:17%;
+}
+.location_info h2{
+    
+    border-bottom: 2px solid lightgray;
+    width:50%;
+    text-align:center;
+    margin: auto;
+}
+
+li{
+    margin-top:5px;
+    list-style-type: none; 
+}
+.user_table{
+
+    width:60%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+
+}
+.user_table th{
+    color:#ffffff;
+    width:25%;
+    background-color:#48b5f9;
+    text-align: left;
+}
+.user_table td{
+
+    text-align: left;
+    width:30%;
+
+}
+.user_table tr{
+
+
+}
+
+.multi_user_table{
+
+    width:70%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+
+}
+.multi_user_table th{
+    color:#ffffff;
+    width:9%;
+    background-color:#48b5f9;
+    text-align: left;
+}
+.multi_user_table td{
+
+    text-align: left;
+    width:9%;
+
+}
+.multi_user_table tr{
+
+
+}
+
+.pet_table{
+
+    width:60%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+
+}
+.pet_table th{
+    color:#ffffff;
+    width:10%;
+    background-color:#48b5f9;
+    text-align: left;
+}
+.pet_table td{
+
+    text-align: left;
+    width:10%;
+
+}
+.pet_table tr{
+
+
+}
