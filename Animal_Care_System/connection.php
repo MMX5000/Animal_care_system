@@ -1,5 +1,5 @@
 <?php
-
+$hello = "ryan fox";
 $dbhost = "127.0.0.1";
 $dbname = "acsystem";
 $username = "root";
