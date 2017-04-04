@@ -1,13 +1,3 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>My Pets</title>
-        <link rel ="stylesheet" type="text/css" href="menu_nav.css"> </link>
-        <link rel ="stylesheet" type ="text/css" href="user_home.css"> </link>
-        <script src ="jquery-3.1.1.js"> </script>
-        <script src="menu_nav.js"> </script>
-    </head>
-
 <?php
 include 'connection.php';
 if(!$conn){
@@ -61,13 +51,14 @@ function search($fname,$lname,$email,$username,$user_id,$animal_id){
     else if($animal_id != ""){
         header("Location: /view_all_visit?petId=$animal_id");
     }
-    
 }
 
 function printUserResult($result){
     if(mysqli_num_rows($result) > 0){            
         echo "<table class = 'multi_user_table'><tr><th>User Id</th><th>First Name</th><th>Last Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Home Phone Number</th><th>Cell Phone Number</th><th>Work Phone Number</th><th>Email</th></tr>";
+
         while($row = mysqli_fetch_row($result)){
+
             echo "<td><a href=\"view_client_pets_session_set.php?id=$row[0]\">$row[0]</td>";
             for($i=1; $i < 11; $i++){
                 echo "<td>$row[$i]</td>";
@@ -75,6 +66,9 @@ function printUserResult($result){
             echo "</tr>";
         }
         echo "</table>";
+    }
+    else{
+        header("Location:search_user.php");
     }
 }
 

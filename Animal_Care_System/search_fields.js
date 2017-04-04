@@ -36,7 +36,7 @@ $("document").ready(function () {
         animal_id.fadeOut("slow");
         email.fadeOut();
 
-        $("#seach").text("Searching By First Name and Last Name.");
+        $("#search").text("Searching By First Name and Last Name.");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
