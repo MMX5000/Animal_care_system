@@ -1,8 +1,9 @@
 /**
  * Created by RyanFox on 3/30/17.
  */
-$("document").ready(function () {
 
+$("document").ready(function () {
+    //new code
     //hides and shows fields depending where text is being entered.
     var firstname = $("input[name = 'fname']");
     var lastname  = $("input[name = 'lname']");
