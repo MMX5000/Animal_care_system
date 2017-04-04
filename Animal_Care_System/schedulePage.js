@@ -173,3 +173,10 @@ function next_month(){
         }
     
 }//end of next
+
+
+function clicked_list_item(){
+
+
+
+}

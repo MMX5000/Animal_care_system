@@ -25,6 +25,7 @@ body ul{
     padding:75px 25px;
     position:relative;
     
+
   
     
     
@@ -90,6 +91,7 @@ button[name = 'prev']{
     
     width:10%;
     height:195.5px;
+
     position:absolute;
     left:0;
     top:0px;

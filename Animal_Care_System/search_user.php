@@ -3,9 +3,7 @@ require 'index_login.php';
 $username = $_SESSION['username'];
 $firstname = $_SESSION['firstname'];
 ?>
-
 <!DOCTYPE html>
-
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
