@@ -1,5 +1,9 @@
-<!DOCTYPE html>
+<?php
+    require 'index_login.php';
+    $firstname = $_SESSION['firstname'];
 
+?>
+<!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -42,17 +46,18 @@ and open the template in the editor.
         </div>
         <div id ="menu_nav" class ="menu_nav">
             <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
+            <span>Hello <?php echo "$firstname";?>! </span>
             <a href="employee_home.php"> Home</a>
             <a href="schedulePage.php">Schedule</a>
             <a href="new_animal.php">Register Animal</a>
             <a href="new_user.php">Register User</a>
             
             <a href ="search_user.php">Search</a>
-            <a href="">Logout</a>
+            <a href="logout.php">Logout</a>
         </div>
         <div class ="form_layout">
             <form id = "user_form" method="get" action="select_user_results.php">
-                <h2>Search</h2>
+                <h2 id = "search">Search</h2>
                <input type="text" name="fname" placeholder="First Name" /><br>
                <input type="text" name="lname" placeholder="Last Name"/><br>
                <input type="text" name="email" placeholder ="Email" /><br>
