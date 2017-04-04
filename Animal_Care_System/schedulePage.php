@@ -1,3 +1,8 @@
+<?php
+    require 'index_login.php';
+    $firstname = $_SESSION['firstname'];
+
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -32,12 +37,13 @@ and open the template in the editor.
             
         <div id ="menu_nav" class ="menu_nav">
             <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
+            <span>Hello <?php echo "$firstname";?>! </span>
             <a href="employee_home.php"> Home</a>
             <a href="schedulePage.php">Schedule</a>
             <a href="new_animal.php">Register Animal</a>
             <a href="new_user.php">Register User</a>
             <a href ="search_user.php">Search</a>
-            <a href="">Logout</a>
+            <a href="logout.php">Logout</a>
         </div>
         
         <div class ="month">
