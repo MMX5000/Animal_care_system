@@ -1,6 +1,10 @@
 <?php
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
+<<<<<<< HEAD
+=======
+
+>>>>>>> foxBranch
 ?>
 <!DOCTYPE html>
 <!--

@@ -23,7 +23,12 @@ body ul{
     background-color:#48b5f9;
     width:100%;
     padding:75px 25px;
+<<<<<<< HEAD
     position: relative;
+=======
+    position:relative;
+    
+>>>>>>> foxBranch
   
     
     
@@ -88,7 +93,11 @@ body ul{
 button[name = 'prev']{
     
     width:10%;
+<<<<<<< HEAD
     height:196px;
+=======
+    height:195.5px;
+>>>>>>> foxBranch
     position:absolute;
     left:0;
     top:0px;
@@ -101,9 +110,15 @@ button[name = 'prev']{
 button[name = 'next']{
     
     width:10%;
+<<<<<<< HEAD
     height:196px;
     position:absolute;
     right:50px;
+=======
+    height:195.5px;
+    position:absolute;
+    right:30px;
+>>>>>>> foxBranch
     top:0px;
     font-size:25px;
     opacity:.5;
