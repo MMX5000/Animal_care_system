@@ -1,5 +1,5 @@
 <?php
-    require 'index_login.php';
+    session_start();
     $firstname = $_SESSION['firstname'];
     require 'insert_client.php';
 ?>
@@ -18,6 +18,7 @@ Date:3/8/17
         <link rel ="stylesheet" type="text/css" href="menu_nav.css"/>
         <link rel ="stylesheet" type="text/css" href="form_page.css"/>
          <script src ="jquery-3.1.1.js"> </script>
+
          <script src="new_user.js"> </script>
         <script src ="menu_nav.js"> </script>
         

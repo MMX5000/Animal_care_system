@@ -1,8 +1,12 @@
 <?php
 require 'connection.php';
+    //if session exist destory, else start a new one.
+    if(isset($_SESSION)){
 
-
-    session_start();
+        session_destroy();
+    }else{
+        session_start();
+    }
 
 
 if($_SERVER["REQUEST_METHOD"]== "POST") {

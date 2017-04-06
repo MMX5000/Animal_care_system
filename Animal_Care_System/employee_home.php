@@ -1,5 +1,6 @@
 <?php
-require 'index_login.php';
+session_start();
+require 'appointment_functions.php';
 $username = $_SESSION['username'];
 $firstname = $_SESSION['firstname'];
 if(!isset($_SESSION['username'])){
@@ -8,6 +9,7 @@ header("Location: index.php");
 date_default_timezone_set("America/New_York");
 $currentDate = date("Y-m-d");
 $day = date("l");
+$next_day = date('Y-m-d',strtotime("+1 day"));
 ?>
 <!DOCTYPE html>
 <!--
@@ -48,31 +50,17 @@ and open the template in the editor.
         <h2>Today's Appointments <?php echo $currentDate ?>: </h2>
         <div class ="appointment_div">
 
-            <?php
+            <?php appointment_by_date($currentDate);?>
 
-            $query = "SELECT c.ClientId, FirstName, LastName, HomePhone, CellPhone, WorkPhone, Email, a.AppointmentId, StartDate, StartTime, ProcedureName FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN AppointmentProcedureCode apc ON a.AppointmentId = apc.AppointmentId JOIN ProcedureCode pc ON apc.CodeId = pc.CodeId WHERE StartDate = '$currentDate'";
+        </div>
+    <br>
 
-            echo "<table><tr><th>Client Id</th><th>Client First Name</th><th>Client Last Name</th><th>Home Phone</th><th>Cell Phone</th><th>Work Phone</th><th>Email</th><th>Appointment ID</th><th>Start Date</th><th>Start Time</th><th>Procedure Name</th></tr>";
-            // Creates the result array
-            $result = mysqli_query($conn, $query);
-            // As long as the result still has more to go
-            while($row = mysqli_fetch_array($result))
-            {
-            // Create a new row
-                print "<tr>";
-            // And for each element in the array
-                for($i=0; $i < 11; $i++)
-                {
-                    //Print out the element in its own spot
-                    echo "<td>$row[$i]</td>";
-                }
+       <h2>Tommrows Appointments <?php echo"$next_day" ?>: </h2>
+    <div class = "appointment_div">
 
-                echo "</tr>";
-            }
-                // End the table
-                echo "</table>";
-            ?>
-</div>
+            <?php appointment_by_date($next_day); ?>
+
+    </div>
        
     </body>
 </html>
