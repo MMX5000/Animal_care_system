@@ -1,5 +1,5 @@
 <?php
-    start_session();
+    session_start();
     require 'insert_animal.php';
     $firstname =  $_SESSION['firstname'];
 

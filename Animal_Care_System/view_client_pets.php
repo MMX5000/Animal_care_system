@@ -17,8 +17,26 @@ and open the template in the editor.
         <title>My Pets</title>
         <link rel ="stylesheet" type="text/css" href="menu_nav.css"> </link>
         <link rel ="stylesheet" type ="text/css" href="user_home.css"> </link>
+
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
+        <style>
+
+            input[type = 'submit']{
+
+                color:#ffffff;
+                background-color:#48b5f9;
+                font-size:16px;
+                font-weight:bold;
+                padding:12px 20px;
+                text-decoration: none;
+                text-align: center;
+                margin:2px 4px;
+                cursor: pointer;
+                border-radius:10px;
+
+            }
+        </style>
     </head>
     
     

@@ -24,11 +24,6 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type="text/css" href ="menu_nav.css"/>
         <link rel = "stylesheet" type = "text/css" href ="employee_home.css" />
-        
-        <style>
-            
-            
-        </style>
         <script src ="menu_nav.js"> </script>
     </head>
     <body>
