@@ -26,9 +26,7 @@ and open the template in the editor.
             <a href="user_home.php"> Home</a>
             <a href="view_my_pets.php">View Pets</a>
             <a href="user_pet_appointments.php">Appointments</a>
-           
             <a href="">Logout</a>
         </div>
-        
    </body>
 </html>

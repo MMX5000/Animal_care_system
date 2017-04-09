@@ -11,7 +11,7 @@ Date:3/2/17
         <meta charset="UTF-8">
         <title>Animal Care System Log in</title>
         <link rel="stylesheet" type="text/css" href="index.css" />
-         <style>
+        <style>
               html,body
             { 
                 margin:0;
