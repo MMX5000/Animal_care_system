@@ -23,6 +23,7 @@ body ul{
     background-color:#48b5f9;
     width:100%;
     padding:75px 25px;
+    position:relative;
     
   
     
@@ -88,10 +89,10 @@ body ul{
 button[name = 'prev']{
     
     width:10%;
-    height:203.5px;
+    height:195.5px;
     position:absolute;
     left:0;
-    top:57.99px;
+    top:0px;
     font-size:25px;
     opacity: .5;
     color:#48b5f9;
@@ -101,10 +102,10 @@ button[name = 'prev']{
 button[name = 'next']{
     
     width:10%;
-    height:203.5px;
+    height:195.5px;
     position:absolute;
-    right:0;
-    top:57.99px;
+    right:30px;
+    top:0px;
     font-size:25px;
     opacity:.5;
     color:#48b5f9;
