@@ -6,6 +6,7 @@ require "connection.php";
  * and open the template in the editor.
  */
     session_start();
+    require_once 'is_employee.php';
     if(isset($_SESSION['client_id'])){
         $location = "./view_client_pets.php";
     }
