@@ -53,3 +53,9 @@
     }
    	search($fname,$lname,$email,$username,$user_id,$animal_id);
  ?>
+<html>
+	<head>
+
+	</head>
+
+</html>

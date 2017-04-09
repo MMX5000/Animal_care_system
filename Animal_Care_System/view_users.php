@@ -1,5 +1,11 @@
 
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
 <?php require "connection.php" ?>
 <html>
     <head>
@@ -25,20 +31,23 @@
             <a href="user_pet_appointments.php">Appointments</a>
             <a href="logout.php">Logout</a>
         </div>  
-        <?php 
-            echo "<table><tr><th>User Id</th><th>First Name</th><th>Last Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Home Phone</th><th>Cell Phone</th><th>Work Phone</th><th>Email</th></tr>";
-            $result = mysqli_query($conn, "SELECT * FROM client");
-
-            while($row = mysqli_fetch_array($result)){
-                print "<tr>";
-                echo "<td><a href=\"view_my_pets.php?id=$row[0]\">$row[0]</td>";
-                for($i=1; $i < 11; $i++){
-                    echo "<td>$row[$i]</td>";
+        
+        
+            
+            <?php 
+                echo "<table><tr><th>User Id</th><th>First Name</th><th>Last Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Home Phone</th><th>Cell Phone</th><th>Work Phone</th><th>Email</th></tr>";
+                $result = mysqli_query($conn, "SELECT * FROM client");
+                
+                while($row = mysqli_fetch_array($result)){
+                    print "<tr>";
+                    echo "<td><a href=\"view_my_pets.php?id=$row[0]\">$row[0]</td>";
+                    for($i=1; $i < 11; $i++){
+                        echo "<td>$row[$i]</td>";
+                    }
+                    echo "</tr>";
                 }
-                echo "</tr>";
-            }
-            echo "</table>";                
-        ?>
+                echo "</table>";                
+            ?>
     
    </body>
 </html>

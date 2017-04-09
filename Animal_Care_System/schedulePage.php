@@ -1,7 +1,6 @@
 <?php
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
-    require_once 'is_logged.php';
 
 ?>
 <!DOCTYPE html>
