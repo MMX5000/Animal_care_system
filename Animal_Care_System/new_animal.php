@@ -2,8 +2,12 @@
 
     require 'insert_animal.php';
     require 'index_login.php';
+<<<<<<< HEAD
    $firstname =  $_SESSION['firstname'];
 
+=======
+    $firstname = $_SESSION['firstname'];
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
 ?>
 
 <!DOCTYPE html>
