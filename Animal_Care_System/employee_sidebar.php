@@ -1,5 +1,7 @@
 <link rel ="stylesheet" type ="text/css" href="form_page.css"/>
 <link rel ="stylesheet" type ="text/css" href="menu_nav.css" />
+<script src = 'menu_nav.js'> </script>
+</head>
 <div class="title_header">
    <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
 </div>

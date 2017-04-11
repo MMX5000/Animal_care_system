@@ -1,11 +1,9 @@
 <?php
     session_start();
     $firstname = $_SESSION['firstname'];
-<<<<<<< HEAD
     require 'insert_client.php';
-=======
     require_once 'is_employee.php';
->>>>>>> master
+
 ?>
 <!DOCTYPE html>
 <!--
@@ -21,14 +19,8 @@ Date:3/8/17
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" type="text/css" href="menu_nav.css"/>
         <link rel ="stylesheet" type="text/css" href="form_page.css"/>
-<<<<<<< HEAD
-         <script src ="jquery-3.1.1.js"> </script>
-
-         <script src="new_user.js"> </script>
-=======
         <script src ="jquery-3.1.1.js"> </script>
         <script src="new_user.js"> </script>
->>>>>>> master
         <script src ="menu_nav.js"> </script>
         
                 

@@ -1,6 +1,6 @@
 <?php
-<<<<<<< HEAD
-require 'connection.php';
+
+
     //if session exist destory, else start a new one.
     if(isset($_SESSION)){
 
@@ -8,10 +8,9 @@ require 'connection.php';
     }else{
         session_start();
     }
-=======
+
     require 'connection.php';
     session_start();
->>>>>>> master
 
 
 if($_SERVER["REQUEST_METHOD"]== "POST") {

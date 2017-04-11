@@ -28,7 +28,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="title_header">
-           <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
+           <h1 style="text-align: center;"> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
         </div>
             
          <div id ="menu_nav" class ="menu_nav">
