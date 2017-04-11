@@ -41,7 +41,7 @@ $("document").ready(function () {
         animal_id.fadeOut("slow");
 
         email.fadeOut("slow");
-        
+
         $("#search").text("Searching By First name and Last name");
         if(firstname.val() === "" && lastname.val() ===""){
 
