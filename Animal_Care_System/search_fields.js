@@ -16,11 +16,15 @@ $("document").ready(function () {
         username.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
-
+        email.fadeOut("slow");
+        $("#search").text("Searching By First Name and Last Name.");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
+            email.fadeIn("slow");
+
+            $("#search").text("Search");
         }
 
     });
@@ -30,10 +34,15 @@ $("document").ready(function () {
         username.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
+        email.fadeOut();
+
+        $("#seach").text("Searching By First Name and Last Name.");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
+            email.fadeIn("slow");
+            $("#search").text("Search");
         }
 
     });
@@ -42,10 +51,16 @@ $("document").ready(function () {
         username.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
+        firstname.fadeOut("slow");
+        lastname.fadeOut("slow");
+        $("#search").text("Searching By Email");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
+            firstname.fadeIn("slow");
+            lastname.fadeIn("slow");
+            $("#search").text("Search");
         }
 
     });
@@ -57,7 +72,7 @@ $("document").ready(function () {
         email.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
-
+        $("#search").text("Searching By Username");
         if(username.val() === ""){
 
             firstname.fadeIn("slow");
@@ -65,6 +80,7 @@ $("document").ready(function () {
             email.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
+            $("#search").text("Search");
         }
     });
 
@@ -77,7 +93,7 @@ $("document").ready(function () {
         email.fadeOut("slow");
         username.fadeOut("slow");
         animal_id.fadeOut("slow");
-
+        $("#search").text("Searching By User ID");
         if(user_id.val() === ""){
 
             firstname.fadeIn("slow");
@@ -85,6 +101,7 @@ $("document").ready(function () {
             email.fadeIn("slow");
             username.fadeIn("slow");
             animal_id.fadeIn("slow");
+            $("#search").text("Search");
         }
 
     });
@@ -97,7 +114,7 @@ $("document").ready(function () {
         email.fadeOut("slow");
         user_id.fadeOut("slow");
         username.fadeOut("slow");
-
+        $("#search").text("Searching By Animal ID");
         if(animal_id.val() === ""){
 
             firstname.fadeIn("slow");
@@ -105,6 +122,7 @@ $("document").ready(function () {
             email.fadeIn("slow");
             user_id.fadeIn("slow");
             username.fadeIn("slow");
+            $("#search").text("Search");
         }
     });
 
