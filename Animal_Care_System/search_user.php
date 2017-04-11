@@ -1,9 +1,16 @@
 <?php
+<<<<<<< HEAD
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 	$username = $_SESSION['username'];
 ?>
 
+=======
+require 'index_login.php';
+$username = $_SESSION['username'];
+$firstname = $_SESSION['firstname'];
+?>
+>>>>>>> origin/JennaBranch
 <!DOCTYPE html>
 
 

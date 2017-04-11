@@ -2,8 +2,6 @@
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 
-
-
 ?>
 <!DOCTYPE html>
 <!--
@@ -64,7 +62,8 @@ and open the template in the editor.
         </div>
             
         <div class ="days">
-        
+
+
         </div>
         
         

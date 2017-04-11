@@ -18,14 +18,17 @@ $("document").ready(function () {
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
         email.fadeOut("slow");
-        $("#search").text("Searching By First Name and Last Name.");
-        if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
-		$("#search").text("Searching By First Name and Last name");
+
+
+        $("#search").text("Searching By First Name and Last name");
         if(firstname.val() === "" && lastname.val() ===""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
-            email.fadeIn("slow")
+            email.fadeIn("slow");
+
+
+
             $("#search").text("Search");
         }
 
@@ -36,13 +39,13 @@ $("document").ready(function () {
         username.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
-        email.fadeOut();
 
-        $("#seach").text("Searching By First Name and Last Name.");
-        if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
         email.fadeOut("slow");
-        $("#search").text("Searching By First name and Last name")
+        
+        $("#search").text("Searching By First name and Last name");
         if(firstname.val() === "" && lastname.val() ===""){
+
+
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
@@ -99,6 +102,7 @@ $("document").ready(function () {
         username.fadeOut("slow");
         animal_id.fadeOut("slow");
         $("#search").text("Searching By User ID");
+
         if(user_id.val() === ""){
 
             firstname.fadeIn("slow");
