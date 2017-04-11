@@ -53,6 +53,7 @@
     {
     	$animal_id = $_GET['animal_id'];
     }
+<<<<<<< HEAD
 
  ?>
 <html>
@@ -84,3 +85,7 @@
 
     </body>
 </html>
+=======
+   	search($fname,$lname,$email,$username,$user_id,$animal_id);
+ ?>
+>>>>>>> master

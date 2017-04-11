@@ -1,7 +1,11 @@
 <?php
     session_start();
     $firstname = $_SESSION['firstname'];
+<<<<<<< HEAD
     require 'insert_client.php';
+=======
+    require_once 'is_employee.php';
+>>>>>>> master
 ?>
 <!DOCTYPE html>
 <!--
@@ -17,9 +21,14 @@ Date:3/8/17
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel ="stylesheet" type="text/css" href="menu_nav.css"/>
         <link rel ="stylesheet" type="text/css" href="form_page.css"/>
+<<<<<<< HEAD
          <script src ="jquery-3.1.1.js"> </script>
 
          <script src="new_user.js"> </script>
+=======
+        <script src ="jquery-3.1.1.js"> </script>
+        <script src="new_user.js"> </script>
+>>>>>>> master
         <script src ="menu_nav.js"> </script>
         
                 
@@ -347,22 +356,21 @@ Date:3/8/17
 
         <form id = "user_form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
             <h2>Register New User</h2>
-           <input type="text" name="fname" placeholder="First Name" /><br>
+            <input type="text" name="fname" placeholder="First Name" /><br>
             <input type="text" name="lname" placeholder="Last Name"/><br>
             <input type="text" name="address" placeholder ="Address"/> <br>
             <input type ="text" name ="city" placeholder ="City" /> <br>
-           <input type ="text" name="zip" placeholder ="Zip Code" /><br>
-           State: <select name = 'state'></select><br>
-           <input type="text" name ="home_number" placeholder ="Home Phone Number (000-000-0000)"/><br>
-           <input type ="text" name="cell_number" placeholder ="Cell Phone Number (000-000-0000)"/> <br>
-           <input type ="text" name ="work_number" placeholder ="Work Phone Number(000-000-0000)" /> <br>
-           <input type="text" name="email" placeholder ="Email" /><br>
+            <input type ="text" name="zip" placeholder ="Zip Code" /><br>
+            State: <select name = 'state'></select><br>
+            <input type="text" name ="home_number" placeholder ="Home Phone Number (000-000-0000)"/><br>
+            <input type ="text" name="cell_number" placeholder ="Cell Phone Number (000-000-0000)"/> <br>
+            <input type ="text" name ="work_number" placeholder ="Work Phone Number(000-000-0000)" /> <br>
+            <input type="text" name="email" placeholder ="Email" /><br>
             <input type="text" name ="username" placeholder="Desired Username"/><br>
             <input type ="password" name="password" placeholder="Desired Password"/><br>
             <input type="password" name="re_pass" placeholder="Re-enter Password"/><br>
-           <input type ="submit" name ='reg_user' value="Register New User" /><br>
-           <input type ="reset" name = 'reset_btn' value ="Reset" /><br>
-      
+            <input type ="submit" name ='reg_user' value="Register New User" /><br>
+            <input type ="reset" name = 'reset_btn' value ="Reset" /><br>
         </form>
        </div>
     </body>

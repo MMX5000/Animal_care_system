@@ -7,18 +7,20 @@
             <file>file:/C:/wamp64/www/Animal_Care_System/new_animal.php</file>
         </group>
         <group>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/connection.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/end_visit.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/index.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/view_client_pets.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/new_user.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/view_all_visit.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/print_pets.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/select_user_results.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/user_home.css</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/view_my_pets.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/user_home.php</file>
-            <file>file:/C:/xampp/htdocs/Animal_Care_System/logout.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/user_home.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/add_procedure.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/view_my_pets.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/view_all_visit.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/search_user.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/view_client_pets_session_set.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/sidebar.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/new_user.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/client_sidebar.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/print_pets.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/view_client_pets.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/employee_sidebar.php</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/form_page.css</file>
+            <file>file:/C:/xampp/htdocs/Animal_Care_System/Animal_Care_System/view_visit.php</file>
         </group>
     </open-files>
 </project-private>
