@@ -25,12 +25,19 @@ body ul{
     padding:75px 25px;
 <<<<<<< HEAD
     position: relative;
+<<<<<<< HEAD
+=======
+    position:relative;
+    
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
+=======
     position:relative;
 =======
     position:relative;
     
 
 >>>>>>> origin/JennaBranch
+>>>>>>> refs/remotes/origin/JennaBranch
   
     
     
@@ -97,11 +104,17 @@ button[name = 'prev']{
     width:10%;
 <<<<<<< HEAD
     height:196px;
+<<<<<<< HEAD
+=======
+    height:195.5px;
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
+=======
     height:195.5px;
 =======
     height:195.5px;
 
 >>>>>>> origin/JennaBranch
+>>>>>>> refs/remotes/origin/JennaBranch
     position:absolute;
     left:0;
     top:0px;
@@ -119,10 +132,14 @@ button[name = 'next']{
     position:absolute;
     right:50px;
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> origin/JennaBranch
+>>>>>>> refs/remotes/origin/JennaBranch
     height:195.5px;
     position:absolute;
     right:30px;
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
     top:0px;
     font-size:25px;
     opacity:.5;

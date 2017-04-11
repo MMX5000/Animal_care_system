@@ -1,8 +1,11 @@
 <?php
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
+<<<<<<< HEAD
+=======
     require_once 'is_logged.php';
 
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
 ?>
 <!DOCTYPE html>
 <!--

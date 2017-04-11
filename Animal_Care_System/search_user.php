@@ -1,4 +1,21 @@
 <?php
+<<<<<<< HEAD
+<<<<<<< HEAD
+    require 'index_login.php';
+    $firstname = $_SESSION['firstname'];
+
+?>
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+=======
+require 'index_login.php';
+require_once 'is_employee.php';
+=======
+>>>>>>> refs/remotes/origin/JennaBranch
 
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
@@ -8,7 +25,11 @@
 
 <!DOCTYPE html>
 
+<<<<<<< HEAD
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
+=======
 
+>>>>>>> refs/remotes/origin/JennaBranch
 <html>
     <head>
         <meta charset="UTF-8">
@@ -33,10 +54,30 @@
         </style>
     </head>
     <body class = 'bg'>
+<<<<<<< HEAD
+        <div class="title_header">
+           <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
+        </div>
+        <div id ="menu_nav" class ="menu_nav">
+            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
+            <span>Hello <?php echo "$firstname";?>! </span>
+            <a href="employee_home.php"> Home</a>
+            <a href="schedulePage.php">Schedule</a>
+            <a href="new_animal.php">Register Animal</a>
+            <a href="new_user.php">Register User</a>
+            
+            <a href ="search_user.php">Search</a>
+            <a href="logout.php">Logout</a>
+        </div>
+        <div class ="form_layout">
+            <form id = "user_form" method="get" action="select_user_results.php">
+                <h2 id = "search">Search</h2>
+=======
         <?php require_once 'sidebar.php'; ?>
         <div class ="form_layout">
             <form id = "user_form" method="get" action="select_user_results.php">
                <h2 id = "search">Search</h2>
+>>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
                <input type="text" name="fname" placeholder="First Name" /><br>
                <input type="text" name="lname" placeholder="Last Name"/><br>
                <input type="text" name="email" placeholder ="Email" /><br>
