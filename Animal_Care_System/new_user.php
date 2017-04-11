@@ -1,11 +1,8 @@
 <?php
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
-<<<<<<< HEAD
     require 'insert_client.php';
-=======
     require_once 'is_employee.php';
->>>>>>> refs/remotes/origin/master
 ?>
 <!DOCTYPE html>
 <!--

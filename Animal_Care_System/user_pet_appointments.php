@@ -29,13 +29,8 @@ and open the template in the editor.
             <a href="view_my_pets.php">View Pets</a>
             <a href="user_pet_appointments.php">Appointments</a>
             <a href="">Logout</a>
-<<<<<<< HEAD
-        </div>  
-        
-        
-            
-            <?php 
-                
+        </div>
+            <?php
 				//Date of the appointment
                 $date = '2017-04-01';
                 // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
@@ -59,9 +54,6 @@ and open the template in the editor.
                 // End the table
                 echo "</table>";                
             ?>
-    
-=======
         </div>
->>>>>>> refs/remotes/origin/master
    </body>
 </html>

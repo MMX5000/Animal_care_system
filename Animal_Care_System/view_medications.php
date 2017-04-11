@@ -35,7 +35,6 @@ and open the template in the editor.
 				$query = "SELECT PetId, v.VisitId,  StartDate as 'Date', MedicationId, Name as 'Drug Name', Dosage, DrugForm as 'Drug Form', Quantity, Instructions FROM Visit v JOIN ProcedureVisit pv ON v.VisitId = pv.VisitId JOIN Medication m ON pv.VisitId = m.VisitId JOIN Drug d ON m.DrugId = d.DrugId WHERE PetId = $petId;";
 				// Get the result
 				$result = mysqli_query($conn, $query);
-
                 // While there are more medications
                 while($row = mysqli_fetch_array($result)){
                     print "<tr>";

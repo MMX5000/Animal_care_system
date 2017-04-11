@@ -2,12 +2,7 @@
 
     require 'insert_animal.php';
     require 'index_login.php';
-<<<<<<< HEAD
-   $firstname =  $_SESSION['firstname'];
-=======
     $firstname =  $_SESSION['firstname'];
-
->>>>>>> origin/JennaBranch
 ?>
 
 <!DOCTYPE html>
@@ -323,10 +318,5 @@ and open the template in the editor.
                 <input type='reset' name = 'reset_btn' value = 'Reset'/>
           </form>
             </div>
-
-
-
-
-
     </body>
 </html>
