@@ -2,16 +2,7 @@
 
     require 'insert_animal.php';
     require 'index_login.php';
-<<<<<<< HEAD
-<<<<<<< HEAD
-   $firstname =  $_SESSION['firstname'];
-
-=======
-    $firstname = $_SESSION['firstname'];
->>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
-=======
     $firstname =  $_SESSION['firstname'];
->>>>>>> refs/remotes/origin/JennaBranch
 ?>
 
 <!DOCTYPE html>
