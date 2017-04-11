@@ -43,6 +43,7 @@
             echo "<td><a href=\"view_visit_session_set.php?visitid=$innerRow[0]\">$row[7]</a></td>";
             // Creates a link to show all visits for the current pet
             echo "<td><form method=post action = \"./view_all_visit.php\"><input type=\"hidden\" name=\"petId\" value=$row[0]><input type=\"submit\" value=\"Show all visits\"/></form><td>";
+            // Creates a link to show all medications for the current pet
             echo "<td><form method=post action = \"./view_medications.php\"><input type=\"hidden\" name=\"petId\" value=$row[0]><input type=\"submit\" value=\"Show medications\"></form></td>";
             if (isset($_SESSION['client_id'])){
                 if ($openVisit){

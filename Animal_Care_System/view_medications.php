@@ -23,6 +23,10 @@ and open the template in the editor.
             <?php
                 require_once 'sidebar.php';
                 require_once 'is_logged.php';
+                if (!isset($_SESSION["petId"])) {
+                    // Get the Pet id from the request
+                    $_SESSION["petId"] = $_POST['petId'];
+                }
 				// Get the Pet id from the request
                 $petId = $_SESSION['petId'];
 				// Create the table headers
