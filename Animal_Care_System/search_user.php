@@ -1,29 +1,19 @@
 <?php
-<<<<<<< HEAD
+
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 	$username = $_SESSION['username'];
 ?>
 
-=======
 require 'index_login.php';
 require_once 'is_employee.php';
 
 $username = $_SESSION['username'];
 $firstname = $_SESSION['firstname'];
-?>
->>>>>>> origin/JennaBranch
+
 <!DOCTYPE html>
 
-<<<<<<< HEAD
 
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-=======
->>>>>>> refs/remotes/origin/master
 <html>
     <head>
         <meta charset="UTF-8">
