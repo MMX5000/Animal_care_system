@@ -24,6 +24,7 @@ body ul{
     width:100%;
     padding:75px 25px;
     position: relative;
+    position:relative;
   
     
     
@@ -89,6 +90,7 @@ button[name = 'prev']{
     
     width:10%;
     height:196px;
+    height:195.5px;
     position:absolute;
     left:0;
     top:0px;
@@ -104,6 +106,9 @@ button[name = 'next']{
     height:196px;
     position:absolute;
     right:50px;
+    height:195.5px;
+    position:absolute;
+    right:30px;
     top:0px;
     font-size:25px;
     opacity:.5;

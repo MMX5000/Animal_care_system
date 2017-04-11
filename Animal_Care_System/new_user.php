@@ -2,7 +2,6 @@
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 ?>
-
 <!DOCTYPE html>
 <!--
     
@@ -65,7 +64,7 @@ Date:3/8/17
             <a href="new_animal.php">Register Animal</a>
             <a href="new_user.php">Register User</a>
             <a href ="search_user.php">Search</a>
-            <a href="">Logout</a>
+            <a href="logout.php">Logout</a>
         </div>
         <?php
             

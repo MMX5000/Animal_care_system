@@ -3,7 +3,6 @@
     require 'insert_animal.php';
     require 'index_login.php';
    $firstname =  $_SESSION['firstname'];
-
 ?>
 
 <!DOCTYPE html>

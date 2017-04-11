@@ -1,6 +1,7 @@
 /**
  * Created by RyanFox on 3/30/17.
  */
+
 $("document").ready(function () {
 
     //hides and shows fields depending where text is being entered.
@@ -12,18 +13,19 @@ $("document").ready(function () {
     var animal_id = $("input[name = 'animal_id']");
 
     firstname.on('input',function(){
-
+        email.fadeOut("slow");
         username.fadeOut("slow");
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
         email.fadeOut("slow");
         $("#search").text("Searching By First Name and Last Name.");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
+		$("#search").text("Searching By First Name and Last name");
+        if(firstname.val() === "" && lastname.val() ===""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
-            email.fadeIn("slow");
-
+            email.fadeIn("slow")
             $("#search").text("Search");
         }
 
@@ -38,6 +40,9 @@ $("document").ready(function () {
 
         $("#seach").text("Searching By First Name and Last Name.");
         if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
+        email.fadeOut("slow");
+        $("#search").text("Searching By First name and Last name")
+        if(firstname.val() === "" && lastname.val() ===""){
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");
