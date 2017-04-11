@@ -3,13 +3,8 @@
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 	$username = $_SESSION['username'];
+    require_once 'is_employee.php';
 ?>
-
-require 'index_login.php';
-require_once 'is_employee.php';
-
-$username = $_SESSION['username'];
-$firstname = $_SESSION['firstname'];
 
 <!DOCTYPE html>
 
