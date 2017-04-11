@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 $dbhost = "localhost";
+=======
+$dbhost = "127.0.0.1";
+>>>>>>> refs/remotes/origin/master
 $dbname = "acsystem";
 $username = "root";
 $password = "";

@@ -1,7 +1,5 @@
 <?php
-require 'connection.php';
-
-
+    require 'connection.php';
     session_start();
 
 
@@ -23,8 +21,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST") {
                 $_SESSION['lastname'] = $row['LastName'] ;
                 $_SESSION['email'] = $row['Email'];
                 $_SESSION['id'] = $row['ClientId'];
-
-
+                $_SESSION['employee'] = -1;
             }
            header("Location:user_home.php");
 
@@ -36,9 +33,8 @@ if($_SERVER["REQUEST_METHOD"]== "POST") {
 
             if(mysqli_num_rows($employee_result) > 0){
                 while($row = mysqli_fetch_assoc($employee_result)){
-
                     $_SESSION['firstname'] = $row['FirstName'];
-
+                    $_SESSION['employee'] = $row['Title'];
                 }
                 header("Location:employee_home.php");
             } else{

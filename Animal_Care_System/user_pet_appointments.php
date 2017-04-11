@@ -29,6 +29,7 @@ and open the template in the editor.
             <a href="view_my_pets.php">View Pets</a>
             <a href="user_pet_appointments.php">Appointments</a>
             <a href="">Logout</a>
+<<<<<<< HEAD
         </div>  
         
         
@@ -59,5 +60,8 @@ and open the template in the editor.
                 echo "</table>";                
             ?>
     
+=======
+        </div>
+>>>>>>> refs/remotes/origin/master
    </body>
 </html>
