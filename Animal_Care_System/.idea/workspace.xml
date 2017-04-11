@@ -11,6 +11,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf>
+      <file leaf-file-name="search_fields.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_fields.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="new_user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_user.php">
@@ -21,32 +28,154 @@
             </state>
           </provider>
         </entry>
+      </file
+      <file leaf-file-name="print_pets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/print_pets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="employee_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+              <folding>
+                <marker date="1491323077000" expanded="true" signature="1743:2089" ph="SELECT c.Cli... client" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
       </file>
+      <file leaf-file-name="index_login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index_login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+>>>>>>> origin/JennaBranch
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1491277503000" expanded="true" signature="256:332" ph="SELECT * FRO... client" />
+                <marker date="1491277503000" expanded="true" signature="886:966" ph="SELECT * FRO... employee" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/employee_home.css">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1491277503000" expanded="true" signature="1610:1776" ph="SELECT PetId... pet" />
+              </folding>
+=======
+            <state relative-caret-position="146">
+              <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+              <folding />
+>>>>>>> origin/JennaBranch
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="schedulePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schedulePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
       <file leaf-file-name="search_user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
               <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
               <folding />
+=======
+      <file leaf-file-name="select_search.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/select_search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <folding>
+                <marker date="1491323267000" expanded="true" signature="461:627" ph="SELECT Clien... client" />
+                <marker date="1491323267000" expanded="true" signature="866:1053" ph="SELECT Clien... client" />
+                <marker date="1491323267000" expanded="true" signature="1286:1424" ph="SELECT Clien... client" />
+                <marker date="1491323267000" expanded="true" signature="1653:1797" ph="SELECT Clien... client" />
+                <marker date="1491323267000" expanded="true" signature="2030:2173" ph="SELECT Clien... client" />
+              </folding>
+>>>>>>> origin/JennaBranch
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="schedulePage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schedulePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+=======
       <file leaf-file-name="schedulePage.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schedulePage.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="344">
               <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+>>>>>>> refs/remotes/origin/foxBranch
               <folding />
+=======
+      <file leaf-file-name="view_client_pets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view_client_pets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+              <folding>
+                <marker date="1491277503000" expanded="true" signature="1617:1783" ph="SELECT PetId... pet" />
+              </folding>
+>>>>>>> origin/JennaBranch
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> foxBranch
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/connection.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/print_pets.php" />
+        <option value="$PROJECT_DIR$/search_user.php" />
+        <option value="$PROJECT_DIR$/new_animal.php" />
+        <option value="$PROJECT_DIR$/new_user.php" />
+        <option value="$PROJECT_DIR$/schedulePage.js" />
+        <option value="$PROJECT_DIR$/schedulePage.css" />
+        <option value="$PROJECT_DIR$/schedulePage.php" />
+        <option value="$PROJECT_DIR$/employee_home.php" />
+        <option value="$PROJECT_DIR$/search_fields.js" />
+        <option value="$PROJECT_DIR$/employee_home.css" />
+>>>>>>> origin/JennaBranch
+        <option value="$PROJECT_DIR$/select_search.php" />
+=======
+        <option value="$PROJECT_DIR$/search_fields.js" />
+        <option value="$PROJECT_DIR$/schedulePage.css" />
+        <option value="$PROJECT_DIR$/search_user.php" />
+        <option value="$PROJECT_DIR$/schedulePage.php" />
+        <option value="$PROJECT_DIR$/new_animal.php" />
+        <option value="$PROJECT_DIR$/new_user.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/schedulePage.css" />
+        <option value="$PROJECT_DIR$/schedulePage.js" />
+        <option value="$PROJECT_DIR$/schedulePage.php" />
+=======
         <option value="$PROJECT_DIR$/connection.php" />
         <option value="$PROJECT_DIR$/search_fields.js" />
         <option value="$PROJECT_DIR$/schedulePage.css" />
@@ -54,6 +183,10 @@
         <option value="$PROJECT_DIR$/schedulePage.php" />
         <option value="$PROJECT_DIR$/new_animal.php" />
         <option value="$PROJECT_DIR$/new_user.php" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
       </list>
     </option>
   </component>
@@ -65,10 +198,28 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="x" value="-12" />
+    <option name="y" value="27" />
+    <option name="width" value="1280" />
+    <option name="height" value="736" />
+=======
+    <option name="x" value="2" />
+    <option name="y" value="26" />
+    <option name="width" value="1280" />
+    <option name="height" value="734" />
+>>>>>>> origin/JennaBranch
+=======
     <option name="x" value="-9" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="735" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -85,7 +236,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+      <pane id="Scope" />
+>>>>>>> origin/JennaBranch
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -100,6 +258,13 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
       <pane id="Scratches" />
     </panes>
   </component>
@@ -119,6 +284,93 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JavaScript Debug.select_search.php">
+    <configuration default="false" name="select_search.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Animal_Care_System/select_search.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.select_search.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.select_search.php" />
+      </list>
+    </recent_temporary>
+  </component>
+=======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -129,18 +381,64 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491277548711</updated>
+<<<<<<< HEAD
+      <workItem from="1491277552046" duration="2796000" />
+=======
       <workItem from="1491277552046" duration="161000" />
       <workItem from="1491281405142" duration="30000" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2796000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="27" width="1280" height="736" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
     <option name="totallyTimeSpent" value="2252000" />
+=======
+    <option name="totallyTimeSpent" value="8416000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="26" width="1280" height="734" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="2597000" />
+>>>>>>> origin/JennaBranch
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="23" width="1280" height="735" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> foxBranch
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -167,6 +465,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +482,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/search_fields.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
@@ -210,6 +514,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> foxBranch
     <entry file="file://$PROJECT_DIR$/schedulePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
@@ -226,13 +531,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/search_user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+>>>>>>> foxBranch
         </state>
       </provider>
     </entry>
@@ -248,10 +560,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="62" />
+<<<<<<< HEAD
+          <folding>
+            <marker date="1491323077000" expanded="true" signature="1743:2089" ph="SELECT c.Cli... client" />
+          </folding>
+=======
+          <folding />
+>>>>>>> foxBranch
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/search_fields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/new_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -264,10 +596,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
           <caret line="74" column="59" lean-forward="false" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+<<<<<<< HEAD
+          <folding />
+=======
           <folding>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <marker date="1491280976000" expanded="true" signature="7087:7117" ph="..." />
+            <marker date="1491280976000" expanded="true" signature="7418:7448" ph="..." />
+=======
             <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
             <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+            <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
+            <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
+>>>>>>> origin/JennaBranch
           </folding>
+>>>>>>> foxBranch
         </state>
       </provider>
     </entry>
@@ -284,11 +630,19 @@
         <state relative-caret-position="511">
           <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding>
+<<<<<<< HEAD
+            <marker date="1491323267000" expanded="true" signature="461:627" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="866:1053" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1286:1424" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1653:1797" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="2030:2173" ph="SELECT Clien... client" />
+=======
             <marker date="1491277503000" expanded="true" signature="805:971" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1210:1397" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1630:1768" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1997:2141" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="2374:2517" ph="SELECT Clien... client" />
+>>>>>>> foxBranch
           </folding>
         </state>
       </provider>
@@ -297,12 +651,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="179" column="4" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+<<<<<<< HEAD
+=======
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+>>>>>>> foxBranch
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/print_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -331,6 +693,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/view_my_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -341,6 +707,14 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/print_pets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/schedulePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -368,6 +742,10 @@
     <entry file="file://$PROJECT_DIR$/print_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1491277503000" expanded="true" signature="749:783" ph="SELECT * FRO... visit" />
@@ -377,6 +755,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/schedulePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/view_my_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -407,9 +794,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
+>>>>>>> foxBranch
         </state>
       </provider>
     </entry>
@@ -426,11 +816,19 @@
         <state relative-caret-position="511">
           <caret line="59" column="37" lean-forward="true" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
           <folding>
+<<<<<<< HEAD
+            <marker date="1491323267000" expanded="true" signature="461:627" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="866:1053" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1286:1424" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1653:1797" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="2030:2173" ph="SELECT Clien... client" />
+=======
             <marker date="1491277503000" expanded="true" signature="805:971" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1210:1397" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1630:1768" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="1997:2141" ph="SELECT Clien... client" />
             <marker date="1491277503000" expanded="true" signature="2374:2517" ph="SELECT Clien... client" />
+>>>>>>> foxBranch
           </folding>
         </state>
       </provider>
@@ -439,9 +837,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="179" column="4" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+<<<<<<< HEAD
+=======
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+>>>>>>> foxBranch
         </state>
       </provider>
     </entry>
@@ -467,26 +868,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/search_fields.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee_home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -503,10 +889,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-          <folding>
-            <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
-            <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -518,21 +909,250 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/employee_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1491323077000" expanded="true" signature="1743:2089" ph="SELECT c.Cli... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> foxBranch
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/schedulePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+=======
+    <entry file="file://$PROJECT_DIR$/search_fields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="102" column="20" lean-forward="false" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+>>>>>>> foxBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/new_animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="74" column="59" lean-forward="false" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+=======
+    <entry file="file://$PROJECT_DIR$/employee_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="62" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/search_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="368">
+          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="59" />
+=======
+    <entry file="file://$PROJECT_DIR$/schedulePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="453">
+          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+=======
+=======
+>>>>>>> origin/JennaBranch
+        <state relative-caret-position="560">
+          <caret line="111" column="3" lean-forward="true" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
+>>>>>>> foxBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/schedulePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="179" column="4" lean-forward="true" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view_my_pets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491277503000" expanded="true" signature="1610:1776" ph="SELECT PetId... pet" />
+=======
+    <entry file="file://$PROJECT_DIR$/new_animal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding>
+            <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
+            <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
+>>>>>>> foxBranch
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/print_pets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491277503000" expanded="true" signature="749:783" ph="SELECT * FRO... visit" />
+            <marker date="1491277503000" expanded="true" signature="1553:1649" ph="SELECT visit... visit" />
+            <marker date="1491277503000" expanded="true" signature="1596:1641" ph="SELECT MAX(s... visit" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedulePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="99" column="1" lean-forward="true" selection-start-line="99" selection-start-column="1" selection-end-line="99" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedulePage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        <state relative-caret-position="419">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/search_fields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/schedulePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+>>>>>>> foxBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/search_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+>>>>>>> foxBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/view_client_pets.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="344">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+        <state relative-caret-position="270">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <marker date="1491277503000" expanded="true" signature="1617:1783" ph="SELECT PetId... pet" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/new_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/index_login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1491277503000" expanded="true" signature="256:332" ph="SELECT * FRO... client" />
+            <marker date="1491277503000" expanded="true" signature="886:966" ph="SELECT * FRO... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+          <folding>
+            <marker date="1491323077000" expanded="true" signature="1743:2089" ph="SELECT c.Cli... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <marker date="1491323267000" expanded="true" signature="461:627" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="866:1053" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1286:1424" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="1653:1797" ph="SELECT Clien... client" />
+            <marker date="1491323267000" expanded="true" signature="2030:2173" ph="SELECT Clien... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> foxBranch
   </component>
 </project>

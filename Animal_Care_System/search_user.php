@@ -1,5 +1,6 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
     require 'index_login.php';
     $firstname = $_SESSION['firstname'];
 
@@ -13,14 +14,22 @@ and open the template in the editor.
 =======
 require 'index_login.php';
 require_once 'is_employee.php';
+=======
+>>>>>>> refs/remotes/origin/JennaBranch
 
-$username = $_SESSION['username'];
-$firstname = $_SESSION['firstname'];
+    require 'index_login.php';
+    $firstname = $_SESSION['firstname'];
+	$username = $_SESSION['username'];
+    require_once 'is_employee.php';
 ?>
 
 <!DOCTYPE html>
 
+<<<<<<< HEAD
 >>>>>>> dd0dbd2f083a1c9c21be45e6c8c33887fe4bbb0b
+=======
+
+>>>>>>> refs/remotes/origin/JennaBranch
 <html>
     <head>
         <meta charset="UTF-8">

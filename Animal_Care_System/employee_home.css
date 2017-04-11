@@ -12,6 +12,7 @@ body{
     
   
     margin:0;
+    font-family:sans-serif;
 }
 
 
@@ -85,4 +86,55 @@ body{
 body{
     
     background-color:#ffffff;
+}
+
+.appointment_div{
+
+    #position: relative;
+    background-color:#48b5f9;
+    margin:10px;
+    border-radius:5px;
+    border: #e5f9ff 1px;
+
+}
+.appointment_div table{
+    #position: absolute;
+    border-collapse: collapse;
+    width:100%;
+    border:#ffffff;
+
+    border-radius:10px;
+
+}
+.appointment_div th,td{
+
+    text-align: left;
+    padding: 8px;
+}
+.appointment_div th{
+    color:#ffffff;
+    background-color: #48b5f9;
+    font-weight:bold;
+    font-size:20px;
+
+}
+tr:nth-child(even){
+    background-color:#e5f9ff;
+    color:#48b5f9;
+    font-weight:bold;
+}
+
+h2{
+
+    color: #48b5f9;
+    font-weight:bold;
+    width:100%;
+
+
+    text-indent:15px;
+
+}
+.appointment_div table:hover{
+
+    box-shadow: 10px 10px 5px #648daf;
 }
