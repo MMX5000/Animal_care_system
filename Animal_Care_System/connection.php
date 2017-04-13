@@ -2,10 +2,9 @@
 
 
 $dbhost = "localhost";
-$dbhost = "127.0.0.1";
-$dbname = "ac_system";
+$dbname = "acsystem";
 $username = "root";
-$password = "Knickstar101";
+$password = "";
 
 $conn = mysqli_connect($dbhost, $username, $password, $dbname);
 

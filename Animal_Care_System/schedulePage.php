@@ -26,12 +26,10 @@ and open the template in the editor.
             { 
                 background-color: #ffffff;
                 margin:0;
-           
             }
         </style>
     </head>
     <body>
-        
          <div class="title_header">
            <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
         </div>
@@ -58,16 +56,8 @@ and open the template in the editor.
            <button type ="button" name="next">&#10095;</button>
         </div>
          <div class ="weekdays">
-             
-            
         </div>
-            
         <div class ="days">
-
-
         </div>
-        
-        
-        
     </body>
 </html>

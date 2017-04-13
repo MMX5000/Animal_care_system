@@ -15,9 +15,10 @@ and open the template in the editor.
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
     </head>
-    
-    
-    <body>
+    <body
+    <div class ="container">
+        <?php
+        require_once("sidebar.php");
         <div class ="container"> 
         <div class="title_header">
         <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
@@ -54,6 +55,7 @@ and open the template in the editor.
                 // End the table
                 echo "</table>";                
             ?>
+        </div>
         </div>
    </body>
 </html>

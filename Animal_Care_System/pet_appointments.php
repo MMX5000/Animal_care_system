@@ -59,6 +59,5 @@ and open the template in the editor.
                 // End the table
                 echo "</table>";                
             ?>
-    
    </body>
 </html>
