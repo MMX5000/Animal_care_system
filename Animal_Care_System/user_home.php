@@ -22,24 +22,15 @@ and open the template in the editor.
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
     </head>
-    
-    
+
+    <?php require 'sidebar.php'; ?>
     <body>
         <div class ="container"> 
        <div class="title_header">
-           <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
+
         </div>
             <img src ="images/welcome_picture.jpg"></img>
-        <div id ="menu_nav" class ="menu_nav">
-            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
-            <span>Welcome <?php echo"$firstname";?>! </span>
-            <a href="user_home.php"> Home</a>
-            <a href="view_my_pets.php">View Pets</a>
-            <a href="user_pet_appointments.php">Appointments</a>
-          
-            
-            <a href="logout.php">Logout</a>
-        </div>
+
         
         
         <div class = "welcome_info">

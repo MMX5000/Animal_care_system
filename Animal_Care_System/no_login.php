@@ -1,5 +1,5 @@
 <?php
-    header("Refresh: 5; URL-./");
+    header("Refresh: 5; URL=./");
 ?>
 
 <html>
