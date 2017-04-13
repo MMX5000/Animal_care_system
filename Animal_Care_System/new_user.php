@@ -1,8 +1,9 @@
 <?php
-    require 'index_login.php';
+    session_start();
     $firstname = $_SESSION['firstname'];
     require 'insert_client.php';
     require_once 'is_employee.php';
+
 ?>
 <!DOCTYPE html>
 <!--

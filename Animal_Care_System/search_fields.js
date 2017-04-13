@@ -18,20 +18,29 @@ $("document").ready(function () {
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
         email.fadeOut("slow");
+<<<<<<< HEAD
+        $("#search").text("Searching By First Name and Last Name.");
+        if(firstname.val() === "" && lastname.val() ==="" && email.val() === "") {
+=======
+
+>>>>>>> master
+
+            $("#search").text("Searching By First Name and Last name");
+            if (firstname.val() === "" && lastname.val() === "") {
+                username.fadeIn("slow");
+                user_id.fadeIn("slow");
+                animal_id.fadeIn("slow");
+                email.fadeIn("slow");
 
 
-        $("#search").text("Searching By First Name and Last name");
-        if(firstname.val() === "" && lastname.val() ===""){
-            username.fadeIn("slow");
-            user_id.fadeIn("slow");
-            animal_id.fadeIn("slow");
-            email.fadeIn("slow");
-
-
+<<<<<<< HEAD
+                $("#search").text("Search");
+            }
+=======
 
             $("#search").text("Search");
+>>>>>>> master
         }
-
     });
 
     lastname.on('input',function(){
@@ -40,6 +49,23 @@ $("document").ready(function () {
         user_id.fadeOut("slow");
         animal_id.fadeOut("slow");
 
+<<<<<<< HEAD
+        email.fadeOut();
+
+        $("#search").text("Searching By First Name and Last Name.");
+        if(firstname.val() === "" && lastname.val() ==="" && email.val() === "") {
+
+            email.fadeOut("slow");
+            $("#search").text("Searching By First name and Last name")
+            if (firstname.val() === "" && lastname.val() === "") {
+
+                username.fadeIn("slow");
+                user_id.fadeIn("slow");
+                animal_id.fadeIn("slow");
+                email.fadeIn("slow");
+                $("#search").text("Search");
+            }
+=======
         email.fadeOut("slow");
 
         $("#search").text("Searching By First name and Last name");
@@ -51,10 +77,11 @@ $("document").ready(function () {
             animal_id.fadeIn("slow");
             email.fadeIn("slow");
             $("#search").text("Search");
+>>>>>>> master
         }
 
     });
-    email.on('input',function(){
+    email.on('input',function() {
 
         username.fadeOut("slow");
         user_id.fadeOut("slow");
@@ -62,7 +89,7 @@ $("document").ready(function () {
         firstname.fadeOut("slow");
         lastname.fadeOut("slow");
         $("#search").text("Searching By Email");
-        if(firstname.val() === "" && lastname.val() ==="" && email.val() === ""){
+        if (firstname.val() === "" && lastname.val() === "" && email.val() === "") {
             username.fadeIn("slow");
             user_id.fadeIn("slow");
             animal_id.fadeIn("slow");

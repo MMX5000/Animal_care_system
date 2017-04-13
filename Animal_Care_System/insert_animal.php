@@ -18,7 +18,7 @@
             echo "Error:" . mysqli_error($conn);
             
         }
-        mysqli_close($conn);
+
     }
 
     function insert_animal_username($pet_name, $species, $breed, $gender, $color, $weight,$birth_date, $username){
@@ -52,7 +52,7 @@
         }
 
         mysqli_free_result($result);
-        mysqli_close($conn);
+
     }
 
     function insert_animal_email($pet_name, $species, $breed, $gender, $color, $weight,$birth_date, $email)
@@ -84,6 +84,6 @@
 
         }
         mysqli_free_result($result);
-        mysqli_close($conn);
+
     }
 ?>
