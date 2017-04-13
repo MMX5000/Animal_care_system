@@ -11,6 +11,6 @@
     <span>Hello <?php echo $_SESSION['firstname'] ?>!</span>
     <a href="user_home.php"> Home</a>
     <a href="view_my_pets.php">View Pets</a>
-    <a href="user_pet_appointments.php">Appointments</a>
+    <a href="client_pet_appointments.php">Appointments</a>
     <a href="logout.php">Logout</a>
 </div> 

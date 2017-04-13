@@ -22,10 +22,10 @@ and open the template in the editor.
             require_once("sidebar.php");
             // Verify logged in as an employee
             require_once 'is_logged.php';
-            if (!isset($_SESSION["petId"])){
-                // Get the Pet id from the request
-                $_SESSION["petId"] = $_POST['petId'];
-            }
+
+            // Get the Pet id from the request
+            $_SESSION["petId"] = $_POST['petId'];
+
             $petId = $_SESSION["petId"];
             // Create the table headers
             echo "<table class = 'pet_table'><tr><th>Visit Id</th><th>Pet Id</th><th>Start Date</th><th>Start Time</th><th>End Date</th><th>End Time</th></tr>";
