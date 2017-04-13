@@ -102,7 +102,7 @@ body{
     border-collapse: collapse;
     width:100%;
     border:#ffffff;
-
+    box-shadow: 10px 10px 5px #648daf;
     border-radius:10px;
 
 }
@@ -133,8 +133,4 @@ h2{
 
     text-indent:15px;
 
-}
-.appointment_div table:hover{
-
-    box-shadow: 10px 10px 5px #648daf;
 }

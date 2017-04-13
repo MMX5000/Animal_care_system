@@ -109,3 +109,10 @@ body{
     background-color:#ffffff;
 }
 
+fieldset{
+    border-color:#ffffff;
+}
+legend{
+    font-weight:bold;
+    font-size: 18px;
+}

@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <?PHP
+
     require_once 'sidebar.php';
     require_once 'connection.php';
     require_once 'is_doctor.php';
     $query = "SELECT codeid, procedurename FROM procedurecode";
     $result = mysqli_query($conn, $query);
 ?>
+
 <html>
+
     <head>
         <meta charset="UTF-8">
         <title><?php echo $_SESSION['firstname'];echo"'s ";?> Pets</title>
@@ -15,6 +18,7 @@
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
     </head>
+
     <body>
         <div class ="form_layout">
             <form id = "user_form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
