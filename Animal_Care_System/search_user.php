@@ -8,10 +8,6 @@
 
 <!DOCTYPE html>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 <html>
     <head>
         <meta charset="UTF-8">
