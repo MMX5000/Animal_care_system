@@ -52,8 +52,12 @@
             // End the table
             echo "</table>";
         ?>
-        <form id = "create_procedure" method="get" action="add_procedure.php">
-            <input type="submit" value="Create Procedure">
-        </form>
+        <?php
+        if ($_SESSION['employee'] > 0){
+            echo "<form id = \"create_procedure\" method=\"get\" action=\"add_procedure.php\">
+                <input type=\"submit\" value=\"Create Procedure\">
+            </form>";
+        }
+        ?>
    </body>
 </html>

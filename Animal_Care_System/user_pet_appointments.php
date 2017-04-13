@@ -15,20 +15,10 @@ and open the template in the editor.
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
     </head>
-    
-    
-    <body>
-<<<<<<< HEAD
+    <body
     <div class ="container">
-
-
-
-
-
-
         <?php
-                require_once("sidebar.php");
-=======
+        require_once("sidebar.php");
         <div class ="container"> 
         <div class="title_header">
         <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
@@ -42,7 +32,6 @@ and open the template in the editor.
             <a href="">Logout</a>
         </div>
             <?php
->>>>>>> origin/JennaBranch
 				//Date of the appointment
                 $date = '2017-04-01';
                 // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
@@ -66,13 +55,7 @@ and open the template in the editor.
                 // End the table
                 echo "</table>";                
             ?>
-<<<<<<< HEAD
-    
-
         </div>
-
-=======
         </div>
->>>>>>> origin/JennaBranch
    </body>
 </html>
