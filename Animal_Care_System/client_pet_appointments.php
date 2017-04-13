@@ -13,7 +13,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<?php require "connection.php" ?>
+<?php require "connection.php";
+?>
+
 
 <html>
 <head>
@@ -34,7 +36,6 @@ and open the template in the editor.
     <?php
     require_once("sidebar.php");
     $clientid = $_SESSION['id'];
-    //require_once 'is_logged.php';
 
     // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
     $query = "SELECT c.ClientId, FirstName, LastName, HomePhone, CellPhone, WorkPhone, Email, a.AppointmentId, StartDate, StartTime, ProcedureName FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN AppointmentProcedureCode apc ON a.AppointmentId = apc.AppointmentId JOIN ProcedureCode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid'";

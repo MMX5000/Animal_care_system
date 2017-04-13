@@ -95,13 +95,9 @@ body ul{
 button[name = 'prev']{
     
     width:10%;
-<<<<<<< HEAD
     height:196px;
     height:195.5px;
-=======
     height:195.5px;
-
->>>>>>> origin/JennaBranch
     position:absolute;
     left:0;
     top:0px;
@@ -114,12 +110,9 @@ button[name = 'prev']{
 button[name = 'next']{
     
     width:10%;
-<<<<<<< HEAD
     height:196px;
     position:absolute;
     right:50px;
-=======
->>>>>>> origin/JennaBranch
     height:195.5px;
     position:absolute;
     right:30px;

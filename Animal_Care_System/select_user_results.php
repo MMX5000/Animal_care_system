@@ -53,8 +53,6 @@
     {
     	$animal_id = $_GET['animal_id'];
     }
-
-
  ?>
 <html>
 	<head>
