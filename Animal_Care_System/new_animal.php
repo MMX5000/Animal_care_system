@@ -4,7 +4,6 @@
     require_once 'is_logged.php';
 
     $firstname =  $_SESSION['firstname'];
-
 ?>
 
 <!DOCTYPE html>

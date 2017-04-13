@@ -1,12 +1,17 @@
 <?php
-require 'index_login.php';
-require_once 'is_employee.php';
 
-$username = $_SESSION['username'];
-$firstname = $_SESSION['firstname'];
+    require 'index_login.php';
+    $firstname = $_SESSION['firstname'];
+	$username = $_SESSION['username'];
+    require_once 'is_employee.php';
 ?>
+
 <!DOCTYPE html>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 <html>
     <head>
         <meta charset="UTF-8">

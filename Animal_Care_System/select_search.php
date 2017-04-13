@@ -1,4 +1,30 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+=======
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Pets</title>
+        <link rel ="stylesheet" type="text/css" href="menu_nav.css"> </link>
+        <link rel ="stylesheet" type ="text/css" href="user_home.css"> </link>
+        <script src ="jquery-3.1.1.js"> </script>
+        <script src="menu_nav.js"> </script>
+        <style>
+             html,body
+            { 
+                margin:0;
+                height:100%;
+            }
+            .bg{
+                height:100%;
+                background-size:cover;
+                background-position:center;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+
+>>>>>>> master
 <?php
 include 'connection.php';
 session_start();
@@ -58,6 +84,7 @@ function search($fname,$lname,$email,$username,$user_id,$animal_id){
     }
 }
 
+<<<<<<< HEAD
 function printUserResult($result){
 
     if(mysqli_num_rows($result) > 0){
@@ -65,13 +92,27 @@ function printUserResult($result){
         echo "<body class = 'bg'> <div><table class = 'multi_user_table'><tr><th>User Id</th><th>First Name</th><th>Last Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Home Phone Number</th><th>Cell Phone Number</th><th>Work Phone Number</th><th>Email</th></tr>";
 
         while($row = mysqli_fetch_row($result)){
+=======
+function printUserResult($result)
+{
 
-            echo "<td><a href=\"view_client_pets_session_set.php?id=$row[0]\">$row[0]</td>";
-            for($i=1; $i < 11; $i++){
-                echo "<td>$row[$i]</td>";
+        if (mysqli_num_rows($result) > 0) {
+            require_once 'sidebar.php';
+            echo "<body class = 'bg'> <div><table class = 'multi_user_table'><tr><th>User Id</th><th>First Name</th><th>Last Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>Home Phone Number</th><th>Cell Phone Number</th><th>Work Phone Number</th><th>Email</th></tr>";
+            while ($row = mysqli_fetch_row($result)) {
+>>>>>>> master
+
+                echo "<td><a href=\"view_client_pets_session_set.php?id=$row[0]\">$row[0]</td>";
+                for ($i = 1; $i < 11; $i++) {
+                    echo "<td>$row[$i]</td>";
+                }
+                echo "</tr>";
             }
-            echo "</tr>";
+            echo "</table></div></body></html>";
+        } else {
+            header("Location:search_user.php");
         }
+<<<<<<< HEAD
 
         echo "</table>";
         echo"</div>";
@@ -85,4 +126,8 @@ function printUserResult($result){
 }
 
 
+=======
+
+}
+>>>>>>> master
 ?>

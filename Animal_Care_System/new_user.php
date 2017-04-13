@@ -3,7 +3,10 @@
     $firstname = $_SESSION['firstname'];
     require 'insert_client.php';
     require_once 'is_employee.php';
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 ?>
 <!DOCTYPE html>
 <!--

@@ -28,7 +28,7 @@ and open the template in the editor.
             }
             $petId = $_SESSION["petId"];
             // Create the table headers
-            echo "<table class = 'user_table'><tr><th>Visit Id</th><th>Pet Id</th><th>Start Date</th><th>Start Time</th><th>End Date</th><th>End Time</th></tr>";
+            echo "<table class = 'pet_table'><tr><th>Visit Id</th><th>Pet Id</th><th>Start Date</th><th>Start Time</th><th>End Date</th><th>End Time</th></tr>";
             // Create the query for all visits for this pet
             $query = "SELECT Visitid, PetId, StartDate, StartTime, EndDate, EndTime FROM visit where petid = $petId";
             // Get the result

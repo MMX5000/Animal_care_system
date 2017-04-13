@@ -3,7 +3,7 @@
     function printPets($result, $conn){
         $openVisit = false;
         // Creates the table and the headers for the table
-        echo "<table class = 'pet_table'><tr><th>Pet Id</th><th>Name</th><th>Species</th><th>Breed</th><th>Sex</th><th>Color</th><th>Weight</th><th>Last Visit</th><th>All Visits</th><th></th>";
+        echo "<table class = 'pet_table'><tr><th>Pet Id</th><th>Name</th><th>Species</th><th>Breed</th><th>Sex</th><th>Color</th><th>Weight</th><th>Last Visit</th><th>All Visits</th><th></th></th><th>Show Medication</th>";
         // If reached from an employee
         if (isset($_SESSION['client_id'])){
             echo "<th>Create/Close Visit</th></tr>";
@@ -43,6 +43,8 @@
             echo "<td><a href=\"view_visit_session_set.php?visitid=$innerRow[0]\">$row[7]</a></td>";
             // Creates a link to show all visits for the current pet
             echo "<td><form method=post action = \"./view_all_visit.php\"><input type=\"hidden\" name=\"petId\" value=$row[0]><input type=\"submit\" value=\"Show all visits\"/></form><td>";
+            // Creates a link to show all medications for the current pet
+            echo "<td><form method=post action = \"./view_medications.php\"><input type=\"hidden\" name=\"petId\" value=$row[0]><input type=\"submit\" value=\"Show medications\"></form></td>";
             if (isset($_SESSION['client_id'])){
                 if ($openVisit){
                     echo "<td><form method=get action = \"./end_visit.php\"><input type=\"hidden\" name=\"petId\" value=$row[0]><input type=\"submit\" value=\"Close Current Visit\"/></form><td>";

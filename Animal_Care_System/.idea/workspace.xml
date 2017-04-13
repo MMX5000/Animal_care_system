@@ -12,9 +12,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> JennaBranch
+=======
+    <leaf>
+      <file leaf-file-name="search_fields.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_fields.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="new_user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file
+      <file leaf-file-name="print_pets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/print_pets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280">
+=======
+<<<<<<< HEAD
+>>>>>>> master
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="employee_home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee_home.php">
@@ -32,6 +58,7 @@
         <entry file="file://$PROJECT_DIR$/index_login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-33">
+>>>>>>> origin/JennaBranch
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1491277503000" expanded="true" signature="256:332" ph="SELECT * FRO... client" />
@@ -44,13 +71,34 @@
       <file leaf-file-name="employee_home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/employee_home.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1491277503000" expanded="true" signature="1610:1776" ph="SELECT PetId... pet" />
+              </folding>
+=======
             <state relative-caret-position="146">
               <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
               <folding />
+>>>>>>> origin/JennaBranch
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="schedulePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schedulePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+      <file leaf-file-name="search_user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+              <folding />
+=======
       <file leaf-file-name="select_search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/select_search.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,10 +122,27 @@
                 <marker date="1491323267000" expanded="true" signature="2030:2173" ph="SELECT Clien... client" />
 >>>>>>> JennaBranch
               </folding>
+>>>>>>> origin/JennaBranch
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="schedulePage.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schedulePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+=======
+      <file leaf-file-name="schedulePage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/schedulePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+>>>>>>> refs/remotes/origin/foxBranch
+              <folding />
+=======
       <file leaf-file-name="view_client_pets.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_client_pets.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,6 +151,7 @@
               <folding>
                 <marker date="1491277503000" expanded="true" signature="1617:1783" ph="SELECT PetId... pet" />
               </folding>
+>>>>>>> origin/JennaBranch
             </state>
           </provider>
         </entry>
@@ -101,6 +167,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/connection.php" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/print_pets.php" />
@@ -113,6 +182,7 @@
         <option value="$PROJECT_DIR$/employee_home.php" />
         <option value="$PROJECT_DIR$/search_fields.js" />
         <option value="$PROJECT_DIR$/employee_home.css" />
+>>>>>>> origin/JennaBranch
         <option value="$PROJECT_DIR$/select_search.php" />
 =======
         <option value="$PROJECT_DIR$/search_fields.js" />
@@ -122,10 +192,28 @@
         <option value="$PROJECT_DIR$/new_animal.php" />
         <option value="$PROJECT_DIR$/new_user.php" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/select_search.php" />
 =======
 >>>>>>> foxBranch
 >>>>>>> JennaBranch
+=======
+        <option value="$PROJECT_DIR$/schedulePage.css" />
+        <option value="$PROJECT_DIR$/schedulePage.js" />
+        <option value="$PROJECT_DIR$/schedulePage.php" />
+=======
+        <option value="$PROJECT_DIR$/connection.php" />
+        <option value="$PROJECT_DIR$/search_fields.js" />
+        <option value="$PROJECT_DIR$/schedulePage.css" />
+        <option value="$PROJECT_DIR$/search_user.php" />
+        <option value="$PROJECT_DIR$/schedulePage.php" />
+        <option value="$PROJECT_DIR$/new_animal.php" />
+        <option value="$PROJECT_DIR$/new_user.php" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -138,10 +226,17 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="x" value="-12" />
+    <option name="y" value="27" />
+    <option name="width" value="1280" />
+    <option name="height" value="736" />
+=======
     <option name="x" value="2" />
     <option name="y" value="26" />
     <option name="width" value="1280" />
     <option name="height" value="734" />
+>>>>>>> origin/JennaBranch
 =======
 <<<<<<< HEAD
     <option name="x" value="2" />
@@ -153,8 +248,15 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="735" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
 >>>>>>> foxBranch
+<<<<<<< HEAD
 >>>>>>> JennaBranch
+=======
+>>>>>>> origin/JennaBranch
+>>>>>>> master
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -171,7 +273,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
       <pane id="Scope" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+      <pane id="Scope" />
+>>>>>>> origin/JennaBranch
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,6 +295,13 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
       <pane id="Scratches" />
     </panes>
   </component>
@@ -287,7 +403,11 @@
     </recent_temporary>
   </component>
 =======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
 >>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -303,15 +423,49 @@
 =======
       <workItem from="1491277552046" duration="161000" />
       <workItem from="1491281405142" duration="30000" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
 >>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2684000" />
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="2796000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="27" width="1280" height="736" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="2252000" />
+=======
+>>>>>>> master
     <option name="totallyTimeSpent" value="8416000" />
   </component>
   <component name="ToolWindowManager">
@@ -321,7 +475,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
 =======
     <option name="totallyTimeSpent" value="2597000" />
+<<<<<<< HEAD
 >>>>>>> JennaBranch
+=======
+>>>>>>> origin/JennaBranch
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="26" width="1280" height="734" extended-state="0" />
@@ -359,6 +517,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,6 +708,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/search_user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -590,6 +756,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/search_fields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/new_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -609,8 +789,18 @@
           <folding />
 =======
           <folding>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <marker date="1491280976000" expanded="true" signature="7087:7117" ph="..." />
+            <marker date="1491280976000" expanded="true" signature="7418:7448" ph="..." />
+=======
             <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
             <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+            <marker date="1491314455000" expanded="true" signature="7086:7116" ph="..." />
+            <marker date="1491314455000" expanded="true" signature="7417:7447" ph="..." />
+>>>>>>> origin/JennaBranch
           </folding>
 >>>>>>> foxBranch
 >>>>>>> JennaBranch
@@ -671,6 +861,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/print_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -699,6 +894,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/view_my_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -709,6 +908,14 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/print_pets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/schedulePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -736,6 +943,10 @@
     <entry file="file://$PROJECT_DIR$/print_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
+>>>>>>> origin/JennaBranch
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1491277503000" expanded="true" signature="749:783" ph="SELECT * FRO... visit" />
@@ -745,6 +956,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/schedulePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+=======
+=======
+>>>>>>> origin/JennaBranch
     <entry file="file://$PROJECT_DIR$/view_my_pets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -971,7 +1191,11 @@
 =======
         <state relative-caret-position="344">
           <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="62" />
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/foxBranch
+=======
 >>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
           <folding />
 >>>>>>> JennaBranch
         </state>
@@ -985,6 +1209,13 @@
 =======
     <entry file="file://$PROJECT_DIR$/schedulePage.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="453">
+          <caret line="100" column="22" lean-forward="true" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+=======
+=======
+>>>>>>> origin/JennaBranch
         <state relative-caret-position="560">
           <caret line="111" column="3" lean-forward="true" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="3" />
 >>>>>>> foxBranch
@@ -1084,6 +1315,11 @@
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/view_client_pets.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="344">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+>>>>>>> refs/remotes/origin/foxBranch
+=======
         <state relative-caret-position="270">
           <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding>
@@ -1102,6 +1338,7 @@
         <state relative-caret-position="327">
           <caret line="66" column="31" lean-forward="false" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
 >>>>>>> foxBranch
+>>>>>>> origin/JennaBranch
           <folding />
         </state>
       </provider>
