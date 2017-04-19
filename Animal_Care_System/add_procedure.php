@@ -20,6 +20,46 @@
     </head>
 
     <body>
+    <?php
+        // If the start date was already provided (aka form was submitted)
+        if (isset($_POST['start_date'])){
+            $code = $_POST['code'];
+            $employeeid = $_SESSION['employeeid'];
+            $start = $_POST['start_date'];
+            $starttime = $_POST['start_time'];
+            $end = $_POST['end_date'];
+            $endtime = $_POST['end_time'];
+            $summary = $_POST['summary'];
+            $visit = $_SESSION['visit_id'];
+            if (strtotime($end) > strtotime('now')){
+                $enddate_error = "No time travelling allowed";
+            }
+            if (strtotime($end) < strtotime($start)){
+                $enddate_error = "Cannot end before you start";
+            }
+            if (strtotime($end) < strtotime('-1 month')){
+                $enddate_error = "Cannot update records older than one month";
+            }
+            if (strtotime($start) < strtotime('-1 month')){
+                $startdate_error = "Cannot update records older than one month";
+            }
+            if (strtotime($start) > strtotime('now')){
+                $startdate_error = "No time travelling allowed";
+            }
+
+            // If the start and end time are valid
+            if (!isset($enddate_error) && !isset($startdate_error)) {
+                // Insert into the procedure table
+                $query = "INSERT INTO procedures (`codeid`, `employeeid`, `startdate`, `starttime`, `enddate`, `endtime`, `summary`) VALUES (\"$code\", \"$employeeid\", \"$start\", \"$starttime:00\", \"$end\", \"$endtime:00\" , \"$summary\")";
+                mysqli_query($conn, $query);
+                // Get the id of the newly inserted procedure
+                $procedure = mysqli_insert_id($conn);
+                // Insert into the procedurevisit table
+                $query = "INSERT INTO procedurevisit (`procedureid`, `visitid`) VALUES (\"$procedure\", \"$visit\")";
+                mysqli_query($conn, $query);
+            }
+        }
+    ?>
         <div class ="form_layout">
             <form id = "user_form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
                 <h2>Register New User</h2>
@@ -30,11 +70,11 @@
                     }
                     echo "</select></br>";
                 ?>
-                Start Date: <input type="date" name="start_date" /><br>
-                Start Time: <input type="time" name="start_time" placeholder="HH:MM:SS"/><br>
-                End Date: <input type="date" name="end_date" placeholder ="YYYY-MM-DD"/> <br>
-                End Time: <input type="time" name ="end_time" placeholder ="HH:MM:SS" /> <br>
-                Summary: <input type ="text" name="summary" placeholder ="Enter Summary" /><br>
+                Start Date: <input type="date" name="start_date" /><?php if(isset($startdate_error)){echo "* $startdate_error";} ?><br>
+                Start Time: <input type="time" name="start_time" /> <br>
+                End Date: <input type="date" name="end_date" /> <?php if(isset($enddate_error)){echo "* $enddate_error";} ?><br>
+                End Time: <input type="time" name ="end_time" /> <br>
+                Summary: <input type ="text" name="summary" /><br>
                 <input type ="submit" name ='add_procedure' value="Add Procedure" /><br>
                 <input type ="reset" name = 'reset_btn' value ="Reset" /><br>
             </form>
