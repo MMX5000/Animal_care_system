@@ -62,7 +62,7 @@
     ?>
         <div class ="form_layout">
             <form id = "user_form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-                <h2>Register New User</h2>
+                <h2>Add Procedure</h2>
                 <?PHP
                     echo "Procedure: <select name='code'>";
                     while (($row = mysqli_fetch_row($result)) != null){
