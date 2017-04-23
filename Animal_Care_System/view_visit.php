@@ -55,9 +55,19 @@
         <?php
         if ($_SESSION['employee'] > 0){
             echo "<form id = \"create_procedure\" method=\"get\" action=\"add_procedure.php\">
-                <input type=\"submit\" value=\"Create Procedure\">
+                <input type=\"submit\" value=\"Create Procedure\"> <br>
+                
             </form>";
         }
         ?>
+            <script>
+
+                function go_to_med_page(){
+
+                    window.location = 'insert_medication.php';
+                }
+            </script>
+
+        <button type="button" onclick = "go_to_med_page();">Add Medication</button>
    </body>
 </html>
