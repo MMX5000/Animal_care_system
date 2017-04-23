@@ -67,7 +67,12 @@
                     window.location = 'insert_medication.php';
                 }
             </script>
+        <?php
 
-        <button type="button" onclick = "go_to_med_page();">Add Medication</button>
+            if(isset($_SESSION['procedureid'])) {
+                echo "<button type='button' onclick = 'go_to_med_page();'>Add Medication</button>";
+            }
+
+        ?>
    </body>
 </html>
