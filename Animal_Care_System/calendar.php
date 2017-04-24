@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <link rel ="stylesheet" type="text/css" href="calender.css"> </link>
 <?php
+    require_once 'sidebar.php';
     /* draws a calendar */
     function draw_calendar($month,$year){
 
@@ -31,17 +33,15 @@
             for($list_day = 1; $list_day <= $days_in_month; $list_day++):
             $calendar.= '<td class="calendar-day">';
                 /* add in the day number */
-                $calendar.= '<div class="day-number">'.$list_day.'</div>';
-
+                $calendar.= '<div class="day-number"><a href=./pet_appointments.php?date='.$year.'-'.$month.'-'.$list_day.'>'.$list_day.'</a></div>';
+                $calendar.= '<div class="add-calender"><a href =./add_appointment_set_session.php?date='.$year.'-'.$month.'-'.$list_day.'>'.'Add</a></div>';
                 /** QUERY THE DATABASE FOR AN ENTRY FOR THIS DAY !!  IF MATCHES FOUND, PRINT THEM !! **/
                 $calendar.= str_repeat('<p> </p>',2);
                 $startdate = $year . "-" . $month . "-" . $list_day;
                 $query = "SELECT firstName, lastName, startdate, starttime, enddate, endtime, homephone, cellphone, workphone, email from appointment a JOIN client c ON a.clientid = c.clientid WHERE startdate = '$startdate'";
                 $result = mysqli_query($conn, $query);
-                $row = mysqli_fetch_assoc($result);
-                if (mysqli_num_rows($result) > 0) {
-                    //echo $row['firstName'] . "</br>";
-                    $calendar .= $row['firstName'] . " ". $row['lastName'] . "</br>" . $row['starttime'];
+                while($row =  mysqli_fetch_assoc($result)) {
+                    $calendar .= $row['firstName'] . " ". $row['lastName'] . "</br>" . $row['starttime']."</br>-----------------------</br>";
                 }
                 $calendar.= '</td>';
             if($running_day == 6):
@@ -72,8 +72,11 @@
     return $calendar;
     }
 
+    $month = getdate()['month'];
+    $mon = getdate()['mon'];
+    $year = getdate()['year'];
     /* sample usages */
-    echo '<h2>April 2017</h2>';
-    echo draw_calendar(4,2017);
+    echo "<h2>$month $year</h2>";
+    echo draw_calendar($mon, $year);
 
 ?>
