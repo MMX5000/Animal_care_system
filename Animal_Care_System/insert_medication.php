@@ -13,20 +13,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST") {
         //if quantity is set
         $quantity = (int)$_POST['quantity'];
     }
-    if (empty($_POST['instructions'])) {
-        //if instructions are empty set an error message
-        $err_msg = "Must enter in instructions for medication";
-    } else {
-
+    if (isset($_POST['instructions'])) {
         $instructions = $_POST['instructions'];
+
     }
     if (insert_medication($drugid, $quantity, $instructions, $pro_id, $visit_id) === "SUCCESS") {
         header("Location:view_medications.php");
     }
 }
-
-
-
 ?>
 
 <!DOCTYPE html>

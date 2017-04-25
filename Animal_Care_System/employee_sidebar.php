@@ -13,6 +13,5 @@
     <a href="new_animal.php">Register Animal</a>
     <a href="new_user.php">Register User</a>
     <a href ="search_user.php">Search</a>
-    <a href  = "insert_medication.php"> New Medication </a>
     <a href="logout.php">Logout</a>
 </div>
