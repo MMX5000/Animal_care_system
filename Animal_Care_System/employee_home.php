@@ -28,20 +28,8 @@ and open the template in the editor.
     </head>
     <body>
         <div class="title_header">
-           <h1 style="text-align: center;"> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
+            <?php require_once 'sidebar.php'?>
         </div>
-            
-         <div id ="menu_nav" class ="menu_nav">
-            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
-             <span>Welcome <?php echo "$firstname";?>! </span>
-             <a href="employee_home.php"> Home</a>
-            <a href="schedulePage.php">Schedule</a>
-            <a href="new_animal.php">Register Animal</a>
-            <a href="new_user.php">Register User</a>
-            <a href ="search_user.php">Search</a>
-            <a href="logout.php">Logout</a>
-        </div>
-
         <h2>Today's Appointments <?php echo $currentDate ?>: </h2>
         <div class ="appointment_div">
 

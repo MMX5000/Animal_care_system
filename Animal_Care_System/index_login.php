@@ -1,6 +1,4 @@
 <?php
-
-
     //if session exist destory, else start a new one.
     if(isset($_SESSION)){
         session_destroy();
@@ -42,6 +40,7 @@ if($_SERVER["REQUEST_METHOD"]== "POST") {
                 while($row = mysqli_fetch_assoc($employee_result)){
                     $_SESSION['firstname'] = $row['FirstName'];
                     $_SESSION['employee'] = $row['Title'];
+                    $_SESSION['employeeid'] = $employeeId;
                 }
                 header("Location:employee_home.php");
             } else{

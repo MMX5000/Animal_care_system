@@ -13,13 +13,10 @@ and open the template in the editor.
         <link rel ="stylesheet" type="text/css" href="menu_nav.css"> </link>
         <link rel ="stylesheet" type ="text/css" href="user_home.css"> </link>
         <script src ="jquery-3.1.1.js"> </script>
-        <script src="menu_nav.js"> </script>
     </head>
     <body
     <div class ="container">
-        <?php
-        require_once("sidebar.php");
-        ?>
+        <?php require_once("sidebar.php");?>
             <?php
 				//Date of the appointment
                 $date = '2017-04-01';
