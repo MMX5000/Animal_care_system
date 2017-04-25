@@ -75,6 +75,11 @@ and open the template in the editor.
 .form_layout select{
     
     margin-top:10px;
+    width:95%;
+    font-size:100px;
+    text-align: center;
+    margin-left:10px;
+
 }
 
 .form_layout h2{
@@ -115,4 +120,13 @@ fieldset{
 legend{
     font-weight:bold;
     font-size: 18px;
+}
+
+.form_layout textarea{
+
+    font-size:22px;
+    width:94.5%;
+    margin-left:10px;
+    resize: none;
+
 }

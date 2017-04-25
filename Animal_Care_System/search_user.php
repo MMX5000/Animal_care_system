@@ -17,21 +17,18 @@
         <script src ="menu_nav.js"> </script>
         <script src = "search_fields.js"></script>
         <style>
-             html,body
-            { 
+            body {
+                background:url(images/search_user_image.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
                 margin:0;
-                height:100%;
-            }
-            .bg{
-                background-image:url(images/search_user_image.jpg);
-                height:100%;
-                background-size:cover;
-                background-position:center;
-                background-repeat: no-repeat;
+
             }
         </style>
     </head>
-    <body class = 'bg'>
+    <body>
         <?php require_once 'sidebar.php'; ?>
         <div class ="form_layout">
             <form id = "user_form" method="get" action="select_user_results.php">

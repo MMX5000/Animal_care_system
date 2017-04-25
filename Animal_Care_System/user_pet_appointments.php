@@ -16,21 +16,7 @@ and open the template in the editor.
     </head>
     <body
     <div class ="container">
-        <?php
-        require_once("sidebar.php");
-        ?>
-        <div class ="container"> 
-        <div class="title_header">
-        <h1>
-        </div>
-           
-        <div id ="menu_nav" class ="menu_nav">
-            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
-            <a href="user_home.php"> Home</a>
-            <a href="view_my_pets.php">View Pets</a>
-            <a href="user_pet_appointments.php">Appointments</a>
-            <a href="">Logout</a>
-        </div>
+        <?php require_once("sidebar.php");?>
             <?php
 				//Date of the appointment
                 $date = '2017-04-01';
