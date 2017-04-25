@@ -35,12 +35,15 @@ and open the template in the editor.
 
     <?php
     require_once("sidebar.php");
+    require_once("is_logged.php");
+
+
     $clientid = $_SESSION['id'];
 
     // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
-    $query = "SELECT c.ClientId, FirstName, LastName, HomePhone, CellPhone, WorkPhone, Email, a.AppointmentId, StartDate, StartTime, ProcedureName FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN AppointmentProcedureCode apc ON a.AppointmentId = apc.AppointmentId JOIN ProcedureCode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid'";
+    $query = "SELECT a.AppointmentId, StartDate, StartTime, ProcedureName, Instruction FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN AppointmentProcedureCode apc ON a.AppointmentId = apc.AppointmentId JOIN ProcedureCode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid' ORDER BY StartDate DESC, StartTime DESC";
 
-    echo "<table><tr><th>Client Id</th><th>Client First Name</th><th>Client Last Name</th><th>Home Phone</th><th>Cell Phone</th><th>Work Phone</th><th>Email</th><th>Appointment ID</th><th>Start Date</th><th>Start Time</th><th>Procedure Name</th></tr>";
+    echo "<table><tr><th>Appointment ID</th><th>Start Date</th><th>Start Time</th><th>Procedure Name</th><th>Pre-Arrival Instructions</th></tr>";
     // Creates the result array
     $result = mysqli_query($conn, $query);
     // As long as the result still has more to go
@@ -48,7 +51,7 @@ and open the template in the editor.
         // Create a new row
         print "<tr>";
         // And for each element in the array
-        for($i=0; $i < 11; $i++){
+        for($i=0; $i < 5; $i++){
             //Print out the element in its own spot
             echo "<td>$row[$i]</td>";
         }
