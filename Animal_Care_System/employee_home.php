@@ -32,7 +32,6 @@ and open the template in the editor.
         </div>
         <h2>Today's Appointments <?php echo $currentDate ?>: </h2>
         <div class ="appointment_div">
-
             <?php appointment_by_date($currentDate);?>
 
         </div>
