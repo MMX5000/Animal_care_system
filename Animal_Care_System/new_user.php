@@ -3,7 +3,14 @@
     $firstname = $_SESSION['firstname'];
     require 'insert_client.php';
     require_once 'is_employee.php';
+    function fix_data($data)
+    {
 
+        $data = trim($data);
+        $data = stripcslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+    }
 ?>
 <!DOCTYPE html>
 <!--
@@ -40,21 +47,10 @@ Date:3/8/17
     </head>
     <body>
     <div class="title_header">
-           <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
         </div>
-            
-        <div id ="menu_nav" class ="menu_nav">
-            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
-            <span>Hello <?php echo "$firstname";?>! </span>
-            <a href="employee_home.php"> Home</a>
-            <a href="schedulePage.php">Schedule</a>
-            <a href="new_animal.php">Register Animal</a>
-            <a href="new_user.php">Register User</a>
-            <a href ="search_user.php">Search</a>
-            <a href="logout.php">Logout</a>
-        </div>
+
         <?php
-            
+            require_once 'sidebar.php';
             //all errors for fields
             $fname_err = $lname_err = $address_err = $city_err = $zip_err = $phone_err = $email_error = $username_err = $pass_err = $re_pass_err ="";
             
@@ -273,14 +269,7 @@ Date:3/8/17
                 $state = $_POST['state'];
 
 
-                function fix_data($data)
-                {
 
-                    $data = trim($data);
-                    $data = stripcslashes($data);
-                    $data = htmlspecialchars($data);
-                    return $data;
-                }
 
                 echo"<div class ='error'>";
                 if($fname_stat !== "SUCCESS")
