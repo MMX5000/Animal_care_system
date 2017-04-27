@@ -31,7 +31,7 @@ if (isset($_POST['start_time'])){
     $starttime = $_POST['start_time'];
     $endtime = $_POST['end_time'];
 
-    if (strtotime($date) > strtotime('now')){
+    if (strtotime($date) < strtotime('now')){
         $date_error = "No time travelling allowed";
     }
     if (strtotime($endtime) < strtotime($starttime)){
