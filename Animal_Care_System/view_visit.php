@@ -12,7 +12,13 @@
         <script src ="jquery-3.1.1.js"> </script>
         <script src="menu_nav.js"> </script>
     </head>
+    <script>
 
+        function go_to_med_page(){
+
+            window.location = 'insert_medication.php';
+        }
+    </script>
     <body>
         <?php 
             require_once 'sidebar.php';
@@ -24,7 +30,8 @@
             echo "<table class ='user_table'><tr><th>Procedure Id</th><th>Procedure Name</th><th>Employee Id</th><th>Procedure Start date</th><th>Procedure Start Time</th><th>Procedure End Date</th><th>Procedure End Time</th>";
             // If the user is an employee
             if ($_SESSION['employee'] != -1){
-                echo "<th>Procedure Summary</th></tr>";
+                echo "<th>Procedure Summary</th>";
+                echo "<th>Add Medication</th></tr>";
             }
             else {
                 echo "</tr>";
@@ -35,16 +42,22 @@
             $result = mysqli_query($conn, $query);
             // While there are more procedures
             while($row = mysqli_fetch_array($result)){
+
                 print "<tr>";
                 // For all other fields
                 for($i=6; $i < 13; $i++){
-                    // Fill them out
-                    echo "<td>$row[$i]</td>";
+                    if($i === 6){
+                        echo"<td class = 'pro_id'> $row[$i]</td>";
+                    }else {
+                        // Fill them out
+                        echo "<td>$row[$i]</td>";
+                    }
                 }
                 // If user is an employee
                 if ($_SESSION['employee'] != -1){
                     // Print the procedure summary information
                     echo "<td>$row[13]</td>";
+                    echo "<td><button type='button' class ='med_btn''>Add Medication</button></td>";
                 }
                 // End this line
                 echo "</tr>";
@@ -55,9 +68,19 @@
         <?php
         if ($_SESSION['employee'] > 0){
             echo "<form id = \"create_procedure\" method=\"get\" action=\"add_procedure.php\">
-                <input type=\"submit\" value=\"Create Procedure\">
+                <input type=\"submit\" value=\"Create Procedure\"> <br>
+                
             </form>";
         }
         ?>
+        <script>
+            $(".med_btn").click(function () {
+               var item = $(this).closest("tr").find(".pro_id").text();
+               window.location.href= "set_pro_id.php?pro_id="+item;
+
+            });
+
+        </script>
+
    </body>
 </html>

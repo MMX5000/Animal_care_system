@@ -37,7 +37,7 @@ and open the template in the editor.
         </div>
     <br>
 
-       <h2>Tommrows Appointments <?php echo"$next_day" ?>: </h2>
+       <h2>Tomorrow's Appointments <?php echo"$next_day" ?>: </h2>
     <div class = "appointment_div">
 
             <?php appointment_by_date($next_day); ?>

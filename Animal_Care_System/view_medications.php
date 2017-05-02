@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -32,7 +33,7 @@ and open the template in the editor.
 				// Create the table headers
 				echo "<table class = 'med_table'><tr><th>Pet Id</th><th>Visit Id</th><th>Date</th><th>Medication Id</th><th>Drug Name</th><th>Dosage</th><th>Form</th><th>Quantity</th><th>Instructions</th></tr>";
 				// Create the query for all medications for this petId
-				$query = "SELECT PetId, v.VisitId,  StartDate as 'Date', MedicationId, Name as 'Drug Name', Dosage, DrugForm as 'Drug Form', Quantity, Instructions FROM Visit v JOIN ProcedureVisit pv ON v.VisitId = pv.VisitId JOIN Medication m ON pv.VisitId = m.VisitId JOIN Drug d ON m.DrugId = d.DrugId WHERE PetId = $petId;";
+				$query = "SELECT  DISTINCT PetId, v.VisitId,  StartDate as 'Date', MedicationId, Name as 'Drug Name', Dosage, DrugForm as 'Drug Form', Quantity, Instructions FROM Visit v JOIN ProcedureVisit pv ON v.VisitId = pv.VisitId JOIN Medication m ON pv.VisitId = m.VisitId JOIN Drug d ON m.DrugId = d.DrugId WHERE PetId = $petId;";
 				// Get the result
 				$result = mysqli_query($conn, $query);
                 // While there are more medications

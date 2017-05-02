@@ -25,33 +25,20 @@ Date:3/8/17
         
                 
         <style>
-           html,body
-            { 
-               
+           body {
+               background:url(images/new_user_image.jpg) no-repeat center center fixed;
+               -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: cover;
+               margin:0;
 
-                margin:0;
-                max-width:1920px;
-             
-                max-height:1920px;
-              
-            }
-            
-            .bg{
-                
-                background-image: url(images/new_user_image.jpg);
-                 max-height:100%;
-                 max-width:100%;
-                 background-size:cover;
-                 background-position:center;
-                 background-repeat: no-repeat;
-
-
-            }
+           }
            
             
         </style>
     </head>
-    <body class = "bg">
+    <body>
     <div class="title_header">
            <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
         </div>
