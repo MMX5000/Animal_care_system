@@ -31,7 +31,8 @@ if (isset($_POST['start_time'])){
     $starttime = $_POST['start_time'];
     $endtime = $_POST['end_time'];
 
-    if (strtotime($date) < strtotime('now')){
+    date_default_timezone_set("UTC-5:00");
+    if (strtotime($date) < strtotime('now')-86400){
         $date_error = "No time travelling allowed";
     }
     if (strtotime($endtime) < strtotime($starttime)){
@@ -68,7 +69,7 @@ if (isset($_POST['start_time'])){
         }
         echo "</select></br>";
         ?>
-        Start Time: <input type="time" name="start_time" />  <?php if(isset($time_error)){echo "* $time_error";} ?> <br>
+        Start Time: <input type="time" name="start_time" />  <?php if(isset($date_error)){echo "* $date_error";} else if(isset($time_error)){echo "* $time_error";} ?> <br>
         End Time: <input type="time" name ="end_time" /> <br>
         <input type ="submit" name ='add_procedure' value="Add Procedure" /><br>
         <input type ="reset" name = 'reset_btn' value ="Reset" /><br>

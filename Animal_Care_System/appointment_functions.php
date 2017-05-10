@@ -9,7 +9,8 @@ function appointment_by_date($date){
     // Creates the result array
     $result = mysqli_query($conn, $query);
     // As long as the result still has more to go
-    echo mysqli_error($conn);while($row = mysqli_fetch_array($result))
+    echo mysqli_error($conn);
+    while($row = mysqli_fetch_array($result))
     {
         // Create a new row
         print "<tr>";
