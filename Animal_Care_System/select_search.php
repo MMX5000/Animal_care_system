@@ -75,7 +75,6 @@
 
             $_SESSION["petId"] = $animal_id;
             header("Location: ./view_all_visit.php");
-
         }
     }
     function printUserResult($result)

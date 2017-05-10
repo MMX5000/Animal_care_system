@@ -26,17 +26,18 @@ and open the template in the editor.
             require_once("sidebar.php");
             // Verify logged in as an employee
             require_once 'is_logged.php';
-
-            // Get the Pet id from the request
-            $_SESSION["petId"] = $_POST['petId'];
-
+		
+            if (!empty($_POST['petId'])){
+	   	// Get the Pet id from the request
+            	$_SESSION["petId"] = $_POST['petId'];
+	    }
             $petId = $_SESSION["petId"];
             // Create the table headers
             echo "<table class = 'pet_table'><tr><th>Visit Id</th><th>Pet Id</th><th>Start Date</th><th>Start Time</th><th>End Date</th><th>End Time</th></tr>";
             // Create the query for all visits for this pet
             $query = "SELECT Visitid, PetId, StartDate, StartTime, EndDate, EndTime FROM visit where petid = $petId";
-            // Get the result
-            $result = mysqli_query($conn, $query);
+            // Get the result 
+            $result = mysqli_query($conn, $query); 
             // While there are more visits
             while($row = mysqli_fetch_array($result)){
                 print "<tr>";

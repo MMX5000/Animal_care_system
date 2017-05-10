@@ -57,23 +57,8 @@ and open the template in the editor.
     </head>
     <body class = 'bg'>
 
-         <div class="title_header">
-           <h1> <span onclick="open_nav()">&#9776</span>Animal Care System</h1>
-        </div>
-
-        <div id ="menu_nav" class ="menu_nav">
-            <a href="javascript:void(0)" class="close_btn" onclick="close_nav()">&times;</a>
-            <span>Hello <?php echo $firstname ?>! </span>
-            <a href="employee_home.php"> Home</a>
-            <a href="schedulePage.php">Schedule</a>
-            <a href="new_animal.php">Register Animal</a>
-            <a href="new_user.php">Register User</a>
-            <a href ="search_user.php">Search</a>
-            <a href="logout.php">Logout</a>
-        </div>
-
         <?php
-
+            require_once 'sidebar.php';
             $pet_name_err = $username_err = $breed_err = $owner_id_err = $weight_err = $email_err = $birth_date_err = "";
              $pet_name = $username = $breed = $owner_id = $weight = $email= "";
              $name_stat = $username_stat = $breed_stat = $weight_stat = $owner_id_stat = $email_stat = $birth_date_stat ="";

@@ -36,14 +36,14 @@ and open the template in the editor.
         <div class = "welcome_info">
             <h2>Welcome To Animal Care System!</h2>
             <p>This system is designed to help you as a pet owner look up all informational
-                regarding you're pet! Our plan is to keep you up to date on all things regarding
-                you're pet, such as prescriptions, visits, scheduled appointments/appointment history,
-                and detailed profile on each one of you're pets.
+                regarding your pet! Our plan is to keep you up to date on all things regarding
+                your pet, such as prescriptions, visits, scheduled appointments/appointment history,
+                and detailed profile on each one of your pets.
                 
             </p>
             </div><!-- end of welcome_info div -->
             <div class ="hours_info">
-                <h2>Store Hours</h2>
+                <h2>Clinic Hours</h2>
                 <table>
                     <tr>
                         <th>Monday</th>

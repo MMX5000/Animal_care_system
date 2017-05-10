@@ -1,8 +1,8 @@
 <?php
 $dbhost = "localhost";
-$dbname = "acsystem";
-$username = "root";
-$password = "";
+$dbname = "ac_system";
+$username = "acsystem";
+$password = "Seniorproject1";
 
 $conn = mysqli_connect($dbhost, $username, $password, $dbname);
 

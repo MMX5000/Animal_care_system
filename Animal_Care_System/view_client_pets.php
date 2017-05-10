@@ -48,10 +48,11 @@ and open the template in the editor.
                 // Id of the user.  Can be swapped to _POST if code needs
                 $id = (int)$clientid;
                 // Creates the query we are using.  In this case, we are getting all relavant pet information and species from the species table.
-                $query = "SELECT PetId, Pet.Name, species.Name AS Species, Breed, Sex, Color, Weight, LastVisitDate FROM pet JOIN species ON pet.speciesId = species.speciesId WHERE clientId = $id";
+                $query = "SELECT PetId, pet.Name, species.Name AS Species, Breed, Sex, Color, Weight, LastVisitDate FROM pet JOIN species ON pet.speciesId = species.speciesId WHERE clientId = $id";
                 // Creates the result array
                 $result = mysqli_query($conn, $query);
-                printPets($result, $conn);
+                echo mysqli_error($conn);
+		printPets($result, $conn);
             ?>    
    </body>
 </html>

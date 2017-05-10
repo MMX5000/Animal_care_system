@@ -41,7 +41,7 @@ and open the template in the editor.
     $clientid = $_SESSION['id'];
 
     // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
-    $query = "SELECT a.AppointmentId, StartDate, StartTime, ProcedureName, Instruction FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN AppointmentProcedureCode apc ON a.AppointmentId = apc.AppointmentId JOIN ProcedureCode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid' ORDER BY StartDate DESC, StartTime DESC";
+    $query = "SELECT a.AppointmentId, StartDate, StartTime, ProcedureName, Instruction FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN appointmentprocedurecode apc ON a.appointmentid = apc.appointmentid JOIN procedurecode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid' ORDER BY StartDate DESC, StartTime DESC";
 
     echo "<table><tr><th>Appointment ID</th><th>Start Date</th><th>Start Time</th><th>Procedure Name</th><th>Pre-Arrival Instructions</th></tr>";
     // Creates the result array
