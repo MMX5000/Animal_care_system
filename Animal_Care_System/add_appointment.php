@@ -46,15 +46,18 @@ if (isset($_POST['start_time'])){
         $appointment = mysqli_insert_id($conn);
         //Insert into the appointmentprocedurecode table
         $query = "INSERT INTO appointmentprocedurecode (`appointmentid`, `codeid`) VALUES (\"$appointment\", \"$code\")";
+        // Run the insert query
         mysqli_query($conn, $query);
+        // Check to see if any rows were added
+        $rowsadded = mysqli_affected_rows($conn);
     }
 }
 ?>
 <div class ="form_layout">
     <form id = "user_form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <h2>Add Procedure</h2>
+        <h2>Add Appointment</h2>
         <?PHP
-        echo "Procedure: <select name='code'>";
+        echo "Appointment: <select name='code'>";
         while (($row = mysqli_fetch_row($result)) != null){
             echo "<option value = '{$row[0]}'>$row[1]</option>";
         }
@@ -70,6 +73,8 @@ if (isset($_POST['start_time'])){
         <input type ="submit" name ='add_procedure' value="Add Procedure" /><br>
         <input type ="reset" name = 'reset_btn' value ="Reset" /><br>
     </form>
+    <!--Print out if any rows were added-->
+    <?php if ($rowsadded == 1){echo "New appointment successfully added!";} ?>
 </div>
 </body>
 </html>

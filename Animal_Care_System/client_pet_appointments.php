@@ -43,7 +43,7 @@ and open the template in the editor.
     // Creates the query we are using.  In this case, we are getting all the appointments for a specific date
     $query = "SELECT a.AppointmentId, StartDate, StartTime, ProcedureName, Instruction FROM client c JOIN appointment a ON c.ClientId = a.ClientId JOIN appointmentprocedurecode apc ON a.appointmentid = apc.appointmentid JOIN procedurecode pc ON apc.CodeId = pc.CodeId WHERE c.ClientId = '$clientid' ORDER BY StartDate DESC, StartTime DESC";
 
-    echo "<table><tr><th>Appointment ID</th><th>Start Date</th><th>Start Time</th><th>Procedure Name</th><th>Pre-Arrival Instructions</th></tr>";
+    echo "<table><tr><th>Appointment ID</th><th>Appointment Date</th><th>Start Time</th><th>Procedure Name</th><th>Pre-Arrival Instructions</th><th>Cancel Appointment</th></tr>";
     // Creates the result array
     $result = mysqli_query($conn, $query);
     // As long as the result still has more to go
@@ -55,7 +55,12 @@ and open the template in the editor.
             //Print out the element in its own spot
             echo "<td>$row[$i]</td>";
         }
-
+        if (strtotime($row[1]) > strtotime('now')) {
+            echo "<td><a href=\"./cancel_appointment.php?appointmentid=$row[0]\">Cancel Appointment</a></td>";
+        }
+        else{
+            echo "<td>Completed</td>";
+        }
         echo "</tr>";
     }
     // End the table
