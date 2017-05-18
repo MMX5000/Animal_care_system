@@ -49,7 +49,6 @@ Date:3/8/17
             $fname_err = $lname_err = $address_err = $city_err = $zip_err = $phone_err = $email_error = $username_err = $pass_err = $re_pass_err ="";
             //status of all fields
             $fname_stat = $lname_stat = $address_stat = $city_stat = $zip_stat = $home_phone_stat = $cell_phone_stat = $work_phone_stat = $email_error_stat = $username_stat = $pass_stat ="";
-            $home_phone_err = $cell_phone_err = $work_number_err ="";
             $home_number = $cell_number = $work_number ="";
         ?>
         <?php
@@ -83,7 +82,7 @@ Date:3/8/17
                     $address_err = "* Address is required!";
                 } else {
                     $address = $_POST['address'];
-                    if (!preg_match("/\A(\d{0,4}) ([A-Z a-z]+)/", $address)) {
+                    if (!preg_match("/^[A-Za-z0-9\.\s-]+$/", $address)) {
                         $address_err = "* Invalid address format!";
                     } else {
 
@@ -153,10 +152,9 @@ Date:3/8/17
 
                 if (!empty($_POST['home_number'])) {
                     $home_number = $_POST['home_number'];
-                    if (!preg_match("/\d\d\d-\d\d\d-\d\d\d/", $home_number)) {
-                        $home_phone_err = "* INVALID phone number";
+                    if (!preg_match("/^\d{3}-\d{3}-\d{4}$/", $home_number)) {
+                        $home_phone_err = "* INVALID home phone number";
                         echo "<script>"
-                            . "location.reload();"
                             . "alert('INVALID HOME NUMBER');"
                             . "</script>";
                     } else {
@@ -169,11 +167,10 @@ Date:3/8/17
                 if (!empty($_POST['cell_number'])) {
                     $cell_number = $_POST['cell_number'];
 
-                    if (!preg_match("/\d\d\d-\d\d\d-\d\d\d/", $cell_number)) {
+                    if (!preg_match("/^\d{3}-\d{3}-\d{4}$/", $cell_number)) {
 
                         $cell_phone_err = "* INVALID cell phone number";
                         echo "<script>"
-                            . "location.reload();"
                             . "alert('INVALID CELL NUMBER');"
                             . "</script>";
                     } else {
@@ -185,11 +182,10 @@ Date:3/8/17
                 //check work number
                 if (!empty($_POST['work_number'])) {
                     $work_number = $_POST['work_number'];
-                    if (!preg_match("/\d\d\d-\d\d\d-\d\d\d/", $work_number)) {
+                    if (!preg_match("/^\d{3}-\d{3}-\d{4}$/", $work_number)) {
 
-                        $home_phone_err = "* INVALID work phone number";
+                        $work_phone_err = "* INVALID work phone number";
                         echo "<script>"
-                            . "location.reload();"
                             . "alert('INVALID HOME NUMBER');"
                             . "</script>";
                     } else {
@@ -226,9 +222,20 @@ Date:3/8/17
                 if(empty($_POST['home_number']) && empty($_POST['cell_number']) && empty($_POST['work_number'])){
                     echo"<span>* Please enter in atleast one phone number for user.</span>";
                 }
-                if($success_count === 7){
+                if($success_count === 8 && !isset($home_phone_err) && !isset($cell_phone_err) && !isset($work_phone_err)){
                     insert_client($first_name, $last_name, $address, $city, $zip, $state, $home_number,
                         $cell_number, $work_number, $email, $username, $password);
+                }
+                else{
+                    if (isset($home_phone_err)){
+                        echo $home_phone_err . "<br/>";
+                    }
+                    if (isset($cell_phone_err)){
+                        echo $cell_phone_err . "<br/>";
+                    }
+                    if (isset($work_phone_err)){
+                        echo $work_phone_err . "<br/>";
+                    }
                 }
 
             }  //END OF REQUEST METHOD

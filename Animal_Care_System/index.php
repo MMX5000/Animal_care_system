@@ -41,7 +41,6 @@ Date:3/2/17
             <span>Username/ID</span><input type="text" name="username" placeholder="Username"/><br>
             <span>Password</span><input type="password" name="password" placeholder="Password"/><br>
             <input type="submit"name ="login_btn" value="Log In"/><br>
-            <a href="pass_reset.php">Forgot Your Password?</a>
         </form>
         </div>
     </body>
